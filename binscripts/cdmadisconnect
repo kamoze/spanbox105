@@ -1,0 +1,5 @@
+poff -a provider
+#poff
+#ip route flush table main
+#dhclient
+#ifdown eth0 && ifup eth0

@@ -1,0 +1,154 @@
+<?php
+session_start();
+
+if($_SESSION['authenticated'] != true ) {
+  header('location:main.php?id=error');
+}
+$_SESSION['error'] = 0;
+if($_POST['upl'] == "yes") {
+ if(file_exists("/etc/openvpn/".$_FILES["file"]["name"])) {
+   $_SESSION['error'] = 1;
+ } 
+ $filename = $_FILES["file"]["name"];
+ $ext = end(explode('.', $filename));
+ if($ext == "conf" || $ext == "ovpn") {
+   $filename =  "client-sc.conf";
+ }
+ $i = move_uploaded_file($_FILES["file"]["tmp_name"], "/etc/openvpn/".$filename); 
+}
+
+if($_POST['tgt'] == "yes") {
+  $command = 'sudo  /usr/bin/spanbox.sh target_server '.$_POST['target_server'];
+  exec($command);
+}
+
+if($_POST['tgtsce'] == "yes") {
+  $command = 'sudo  /usr/bin/spanbox.sh targetse_server '.$_POST['target_server'];
+  exec($command);
+}
+
+if($_POST['restart'] == "yes") {
+   exec('sudo  /usr/bin/spanbox.sh vpn_restart');
+}
+?>
+<script type="text/javascript">
+function submitform() {
+  document.forms["upload"].submit();
+}
+function submitform2() {
+  document.forms["target"].submit();
+}
+function submitform3() {
+  document.forms["start"].submit();
+}
+function submitform4() {
+  document.forms["pupload"].submit();
+}
+function submitform8() {
+  document.forms["pstart"].submit();
+}
+function submitform5() {
+  document.forms["seupload"].submit();
+}
+function submitform6() {
+  document.forms["setarget"].submit();
+}
+function submitform7() {
+  document.forms["sestart"].submit();
+}
+</script>
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="outer_head">
+<div id="main_heading"> The SpanBOX 105 Web Manager </div>
+<br>
+
+<div id="menu">
+<ul>
+<li><a style="width:80px; padding-left:10px;" href="status.php">Status</a></li>
+<li><a style="width:125px;" href="mgmt.php">Management</a></li>
+<li><a style="width:80px;" href="pbx.php">PBX</a></li>
+<li><a style="width:125px;" href="network.php">Network</a></li>
+<li><a style="width:150px;" href="vpn.php">VPN-Connect</a></li>
+<li><a style="width:125px;" href="firewall.php">Firewall</a></li>
+</ul>
+<br>
+</div>
+
+
+<h3 style="margin-left:15px;">VPN-CONNECT CONFIG</h3>
+<?php 
+if($_SESSION['error'] == 1) {
+  echo '<p>Warning !!! File Already Exists. Overwritten ...</p>' ;
+}
+?>
+<div id="status_table">
+<table width="700 px" style="margin-left:10 px; align:center;">
+
+
+<tr><td colspan="2"><hr></td></tr>
+<tr>
+  <td width="200 px" style="text-align:center;">S-CONNECT Enterprise</td>
+  <td  width ="350 px" style="border:1px solid green; background-color:#A7C942">
+    <form method = "post" action="vpn_config_sce.php" name="seupload" id="seupload"
+          enctype="multipart/form-data">
+    <input type="hidden" name="upl" value="yes">
+    <input type="file" name="file" id="file" ><br />
+    <a href="javascript:submitform5()"> Upload Config File</a>
+   </form>
+  </td>
+</tr>
+<tr>
+  <td width="200 px" style="text-align:center;"></td>
+  <td  width ="350 px" style="border:1px solid green; background-color:#EAF2D3">
+    <form method = "post" action="vpn_config.php" name="setarget" id="setarget">
+    <input type="hidden" name="tgtsce" value="yes">
+    <select name="target_server">
+<?php
+      $handle = @fopen("target_server.txt", "r+");
+
+      if ($handle) {
+        while(($buffer = fgets($handle, 4096)) !== false) {
+          echo $buffer;
+          echo '<option value = "'.$buffer.'">'.$buffer.'</option>';
+        }
+        if (!feof($handle)) {
+          echo "Error :unexpected ";
+        }
+        fclose ($handle);
+      }
+      else {
+        echo "No File ";
+      }
+?>
+      <option value = "vpn-sce1.spanboxng.com">vpn-sce1.spanboxng.com</option>
+      <option value = "vpn-sce2.spanboxng.com">vpn-sce2.spanboxng.com</option>
+      <option value = "vpn-sce3.spanboxng.com">vpn-sce3.spanboxng.com</option>
+    </select><br>
+    <a href="javascript:submitform6()"> Select Target Server</a>
+   </form></td>
+</tr>
+
+<tr>
+  <td width="200 px" style="text-align:center;"></td>
+  <td  width ="350 px" style="border:1px solid green; background-color:#A7c942">
+    <form method = "post" action="vpn_config.php" name="sestart" id="sestart">
+    <input type="hidden" name="restart" value="yes">
+    <a href="javascript:submitform7()"> START LINK</a>
+    </form>
+  </td>
+</tr>
+</table>
+<br/><br/>
+<a href="vpn.php"><img src="image/back.jpg" style="margin-left:75px;"></a>
+<a href="vpn_online_upg.php"><img src="image/next.jpg" style="margin-left:450;"></a>
+</div>
+</div>
+</body>
+</html>
+
+

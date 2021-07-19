@@ -1,0 +1,2 @@
+vpn-se1.spanboxng.com
+vpn-se2.spanboxng.com

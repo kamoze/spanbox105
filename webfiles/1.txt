@@ -1,0 +1,3 @@
+vpnvcvoip1.spantreeng.com 443 0 1  
+ifconfig uap0 netmask up
+ifconfig uap0 netmask up

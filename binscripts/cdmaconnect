@@ -1,0 +1,5 @@
+usb_modeswitch -v 12d1 -p 1505 -c /etc/usb_modeswitch.d/12d1:1505
+sleep 7
+usb_modeswitch -v 12d1 -p 1505 -c /etc/usb_modeswitch.d/12d1:1505
+sleep 5
+pon provider

@@ -1,0 +1,17 @@
+#!/bin/sh
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="web.gprs.mtnnigeria.net" APN_USER="web" APN_PASS="mtn" USBDRIVER="option" MODEM="19d2:0154 19d2:0117"
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="etisalat" APN_USER="etisalat" APN_PASS="etisalat" USBINTERFACE="0" USBDRIVER="option" USBMODEM="12d1:1436" OTHER="USBMODEM" MODEM="OTHER"
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="web.gprs.mtnnigeria.net" APN_USER="web" APN_PASS="mtn" USBDRIVER="option" MODEM="12d1:1003"
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="etisalat" APN_USER="apn" APN_PASS="apn" USBDRIVER="option" MODEM="19d2:0117"  
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="gloflat" APN_USER="flat" APN_PASS="flat" USBINTERFACE="0" USBDRIVER="option" USBMODEM="12d1:1436" OTHER="USBMODEM" MODEM="OTHER"
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="wap.ng.airtel.com" APN_USER="airtel" APN_PASS="airtel" USBDRIVER="option" MODEM="12d1:1001"
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="web.gprs.mtnnigeria.net" APN_USER="web" APN_PASS="mtn" USBDRIVER="option" MODEM="12d1:1001"
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="etisalat" APN_USER="apn" APN_PASS="apn" USBDRIVER="option" MODEM="12d1:1001"
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="wap.ng.airtel.com" APN_USER="airtel" APN_PASS="airtel" USBINTERFACE="0" USBDRIVER="option" USBMODEM="12d1:1436" OTHER="USBMODEM" MODEM="OTHER"
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="gloflat" APN_USER="flat" APN_PASS="flat" USBDRIVER="option" MODEM="12d1:1001"
+/usr/bin/sakis3g sudo connect --nostorage --pppd APN="etisalat" APN_USER="etisalat" APN_PASS="etisalat" USBINTERFACE="0" USBDRIVER="option" USBMODEM="12d1:1436" OTHER="USBMODEM" MODEM="OTHER" 
+sed -i '/3gconnect*/d' /usr/bin/connect.sh
+sed -i "2i GConn=3gconnect2" /usr/bin/connect.sh
+exit 0
+#
+

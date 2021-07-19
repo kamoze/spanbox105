@@ -1,0 +1,10 @@
+#!/bin/sh
+
+kernelrelease=uname
+
+if [ $kernelrelease = 2.6.33.6 ]; then
+ . /root/k2.6.33.6/init_setup8787.sh
+ elif [ $kernelrelease = 2.6.33.7-dirty ];
+ . /root/k2.6.33.7/init_setup8787.sh
+ then "echo the kernel version isn't support wifi module"
+fi

@@ -1,0 +1,49 @@
+/*
+	 Organic Tabs
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll; }
+a { text-decoration: none; }
+a:focus { outline: 0; }
+p { font-size: 15px; margin: 0 0 20px 0; }
+#page-wrap { width: 440px; margin: 80px auto; }
+h1 { font: bold 40px Sans-Serif; margin: 0 0 20px 0; }
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+
+/* Specific to example one */
+
+#example-one { background: #fff; width:700px; margin-left: -150px;}
+#example-one a{
+      }
+
+#example-one .nav { overflow: hidden; margin: 0 0 10px 0; }
+#example-one .nav li { width: 97px; float: left; background-color:#6dbb1f; }
+#example-one .nav li.last { margin-right: 0; }
+#example-one .nav li a { display: block;
+  background-color: #F4D03F;
+  padding: 15px 20px;
+  padding: 0.9375em 1.25em;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 3px;
+  cursor: pointer; }
+#example-one .nav li a:hover { background-color: #F7CA18; }
+
+#example-one ul { list-style: none; }
+#example-one ul li a { display: block; border-bottom: 1px solid #fff; padding: 4px; color: #666; }
+#example-one ul li a:hover { background: #fe4902; color: white; }
+#example-one ul li:last-child a { border: none; }
+
+#example-one ul li.nav-one a.current, #example-one ul#featured li a:hover { background-color: #fff; color: #111; }
+#example-one ul li.nav-two a.current, #example-one ul#core li a:hover { background-color: #fff; color: #111; }
+#example-one ul li.nav-three a.current, #example-one ul#jquerytuts li a:hover { background-color: #fff; color: #111; }
+#example-one ul li.nav-four a.current, #example-one ul#classics li a:hover { background-color: #fff; color: #111; }
+
+
+

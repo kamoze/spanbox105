@@ -1,0 +1,8 @@
+vikalp
+abcd
+ifconfig uap0 netmask up
+ifconfig uap0 netmask up
+ifconfig uap0 netmask up
+ifconfig uap0 netmask up
+ifconfig uap0 netmask up
+ifconfig uap0 netmask up

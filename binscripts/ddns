@@ -1,0 +1,5 @@
+#!/bin/sh
+cur_date=`date "+%Y %b %d %H:%M"`
+echo "$cur_date Updating Remote Mgt IP Address"
+perl /usr/bin/ddnsupdate.pl
+#

@@ -1,0 +1,72 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 3 (0x3)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=CA, L=SanFrancisco, O=Spantree, OU=VPN, CN=vpn/name=vpn/emailAddress=info@spantreeng.com
+        Validity
+            Not Before: Jun 24 21:12:30 2014 GMT
+            Not After : Jun 21 21:12:30 2024 GMT
+        Subject: C=US, ST=CA, L=SanFrancisco, O=Spantree, OU=VPN, CN=span1/name=vpn/emailAddress=info@spantreeng.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:ce:7d:46:9a:29:57:59:1c:79:0b:20:be:5e:9a:
+                    f9:fc:71:6d:ba:6e:30:a1:28:04:0c:d0:13:9a:ae:
+                    5d:dc:bb:3f:02:35:4a:7f:28:9c:81:31:09:2b:34:
+                    19:d3:f7:fb:e2:f1:90:b3:28:56:55:81:f4:d1:78:
+                    06:76:ad:23:22:cc:5c:83:3c:d3:9b:83:76:4f:b2:
+                    80:ee:da:e4:7e:d6:5a:b7:fe:b7:20:d2:36:19:14:
+                    27:02:4b:40:5e:19:fe:c2:4d:e5:21:79:c1:85:68:
+                    c3:92:74:37:d6:a4:4d:73:57:ce:c8:2e:54:06:28:
+                    45:ac:b7:33:7f:8d:64:4b:41
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                5D:5A:82:E9:9D:69:64:EE:B8:9E:47:A4:8C:20:71:6F:0C:B6:E6:D4
+            X509v3 Authority Key Identifier: 
+                keyid:2F:95:A6:26:5A:E3:54:E9:8F:14:8E:FB:8B:20:F8:9D:11:8C:EE:B7
+                DirName:/C=US/ST=CA/L=SanFrancisco/O=Spantree/OU=VPN/CN=vpn/name=vpn/emailAddress=info@spantreeng.com
+                serial:BC:AE:F7:DA:5D:81:14:15
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         7b:ba:b5:3e:b0:d9:fe:78:88:55:ed:2c:d5:09:99:bb:5e:15:
+         71:81:e1:60:29:ee:f6:b7:96:44:49:b7:63:2c:4b:b7:1c:23:
+         78:b7:5d:b5:e2:b5:5f:53:90:77:5f:b3:2b:0a:f9:92:f6:59:
+         38:99:f8:7f:47:e2:10:bf:34:f4:d4:d5:08:a9:60:d1:ad:62:
+         61:0d:03:4e:6d:75:e8:1e:ff:bc:f6:dd:90:9f:20:7d:49:7e:
+         5b:71:de:05:41:59:8e:db:72:ea:a9:87:92:57:89:42:fe:95:
+         39:96:28:ca:d7:b5:8f:b3:99:f8:71:be:26:73:21:14:f6:72:
+         0b:b0
+-----BEGIN CERTIFICATE-----
+MIID6TCCA1KgAwIBAgIBAzANBgkqhkiG9w0BAQUFADCBkjELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xETAPBgNVBAoTCFNw
+YW50cmVlMQwwCgYDVQQLEwNWUE4xDDAKBgNVBAMTA3ZwbjEMMAoGA1UEKRMDdnBu
+MSIwIAYJKoZIhvcNAQkBFhNpbmZvQHNwYW50cmVlbmcuY29tMB4XDTE0MDYyNDIx
+MTIzMFoXDTI0MDYyMTIxMTIzMFowgZQxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJD
+QTEVMBMGA1UEBxMMU2FuRnJhbmNpc2NvMREwDwYDVQQKEwhTcGFudHJlZTEMMAoG
+A1UECxMDVlBOMQ4wDAYDVQQDEwVzcGFuMTEMMAoGA1UEKRMDdnBuMSIwIAYJKoZI
+hvcNAQkBFhNpbmZvQHNwYW50cmVlbmcuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GN
+ADCBiQKBgQDOfUaaKVdZHHkLIL5emvn8cW26bjChKAQM0BOarl3cuz8CNUp/KJyB
+MQkrNBnT9/vi8ZCzKFZVgfTReAZ2rSMizFyDPNObg3ZPsoDu2uR+1lq3/rcg0jYZ
+FCcCS0BeGf7CTeUhecGFaMOSdDfWpE1zV87ILlQGKEWstzN/jWRLQQIDAQABo4IB
+STCCAUUwCQYDVR0TBAIwADAtBglghkgBhvhCAQ0EIBYeRWFzeS1SU0EgR2VuZXJh
+dGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBRdWoLpnWlk7rieR6SMIHFvDLbm1DCB
+xwYDVR0jBIG/MIG8gBQvlaYmWuNU6Y8UjvuLIPidEYzut6GBmKSBlTCBkjELMAkG
+A1UEBhMCVVMxCzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xETAP
+BgNVBAoTCFNwYW50cmVlMQwwCgYDVQQLEwNWUE4xDDAKBgNVBAMTA3ZwbjEMMAoG
+A1UEKRMDdnBuMSIwIAYJKoZIhvcNAQkBFhNpbmZvQHNwYW50cmVlbmcuY29tggkA
+vK732l2BFBUwEwYDVR0lBAwwCgYIKwYBBQUHAwIwCwYDVR0PBAQDAgeAMA0GCSqG
+SIb3DQEBBQUAA4GBAHu6tT6w2f54iFXtLNUJmbteFXGB4WAp7va3lkRJt2MsS7cc
+I3i3XbXitV9TkHdfsysK+ZL2WTiZ+H9H4hC/NPTU1QipYNGtYmENA05tdege/7z2
+3ZCfIH1Jfltx3gVBWY7bcuqph5JXiUL+lTmWKMrXtY+zmfhxviZzIRT2cguw
+-----END CERTIFICATE-----

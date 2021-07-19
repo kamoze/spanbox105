@@ -1,0 +1,53 @@
+!
+! Zebra configuration saved from vty
+!   2013/03/15 23:43:48
+!
+hostname one.spanboxng.com
+password sp@nb0x
+!
+interface eth0
+ ipv6 nd suppress-ra
+!
+interface eth1
+ ipv6 nd suppress-ra
+!
+interface eth2
+ ipv6 nd suppress-ra
+!
+interface eth3
+ ipv6 nd suppress-ra
+!
+interface eth4
+ ipv6 nd suppress-ra
+!
+interface eth5
+ ipv6 nd suppress-ra
+!
+interface imq0
+ ipv6 nd suppress-ra
+!
+interface imq1
+ ipv6 nd suppress-ra
+!
+interface lo
+!
+interface pan0
+ ipv6 nd suppress-ra
+!
+interface sit0
+ ipv6 nd suppress-ra
+!
+interface tap0
+ ipv6 nd suppress-ra
+!
+interface tap1
+ ipv6 nd suppress-ra
+!
+interface uap0
+ ipv6 nd suppress-ra
+!
+ip forwarding
+!
+!
+line vty
+!
