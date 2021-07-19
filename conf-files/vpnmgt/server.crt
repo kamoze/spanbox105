@@ -1,0 +1,76 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=CA, L=SanFrancisco, O=Fort-Funston, OU=Research, CN=stvpn/name=spantree/emailAddress=research@spantreeng.com
+        Validity
+            Not Before: Jun  9 20:03:10 2013 GMT
+            Not After : Jun  7 20:03:10 2023 GMT
+        Subject: C=US, ST=CA, L=SanFrancisco, O=Fort-Funston, OU=Research, CN=stvpn/name=spantree/emailAddress=research@spantreeng.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:b3:ae:b9:d6:d8:d3:5a:be:1b:34:52:64:d1:f4:
+                    e9:34:f5:29:5b:9e:46:a0:fc:f1:db:d0:8b:ed:c5:
+                    7e:c1:92:d1:14:d5:bf:68:ca:e3:34:e4:98:98:83:
+                    96:1b:41:8a:06:7d:8a:70:46:60:d0:f2:3f:60:5d:
+                    75:ca:de:ed:df:72:7a:5d:03:fc:95:95:9f:ce:c5:
+                    d9:18:b7:c0:73:69:23:93:88:3f:83:85:15:27:19:
+                    77:8d:75:5c:dd:08:d0:d2:41:81:61:9b:56:b5:c2:
+                    ed:72:b8:ad:d7:a5:2b:d2:92:c3:c5:8e:18:50:fa:
+                    1b:be:d8:8f:13:5c:3a:d0:1d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                E9:FA:09:B1:F4:A7:76:AF:EF:FB:49:49:5E:03:F2:97:A4:8E:DD:11
+            X509v3 Authority Key Identifier: 
+                keyid:F3:E8:C8:09:4C:39:AE:81:E8:DD:32:8E:CF:94:18:4B:B4:A5:C1:16
+                DirName:/C=US/ST=CA/L=SanFrancisco/O=Fort-Funston/OU=Research/CN=stvpn/name=spantree/emailAddress=research@spantreeng.com
+                serial:A2:74:C6:B0:3E:3F:C3:DC
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+    Signature Algorithm: sha1WithRSAEncryption
+        07:fe:b7:92:54:f4:8e:3f:d6:0a:a0:e3:15:a8:ac:53:b7:d4:
+        23:e0:3d:06:e5:fb:4a:7e:d0:44:03:31:75:2a:1e:35:65:1d:
+        8e:17:7e:23:63:d0:14:09:e2:0c:24:b8:a0:f6:36:84:b1:71:
+        82:30:19:9b:8c:dc:05:80:80:fa:fe:b7:80:54:50:ab:12:d7:
+        a9:99:c8:66:f1:7c:33:2a:e1:1e:29:7b:3a:e1:dd:bd:01:c0:
+        cd:a8:ac:21:b4:c0:c0:01:e2:90:ba:db:fe:ea:f0:8c:e5:06:
+        47:35:58:99:94:28:2d:6b:5a:6a:eb:5f:00:6b:53:17:89:2c:
+        03:c4
+-----BEGIN CERTIFICATE-----
+MIIEPTCCA6agAwIBAgIBATANBgkqhkiG9w0BAQUFADCBpjELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xFTATBgNVBAoTDEZv
+cnQtRnVuc3RvbjERMA8GA1UECxMIUmVzZWFyY2gxDjAMBgNVBAMTBXN0dnBuMREw
+DwYDVQQpEwhzcGFudHJlZTEmMCQGCSqGSIb3DQEJARYXcmVzZWFyY2hAc3BhbnRy
+ZWVuZy5jb20wHhcNMTMwNjA5MjAwMzEwWhcNMjMwNjA3MjAwMzEwWjCBpjELMAkG
+A1UEBhMCVVMxCzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xFTAT
+BgNVBAoTDEZvcnQtRnVuc3RvbjERMA8GA1UECxMIUmVzZWFyY2gxDjAMBgNVBAMT
+BXN0dnBuMREwDwYDVQQpEwhzcGFudHJlZTEmMCQGCSqGSIb3DQEJARYXcmVzZWFy
+Y2hAc3BhbnRyZWVuZy5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALOu
+udbY01q+GzRSZNH06TT1KVueRqD88dvQi+3FfsGS0RTVv2jK4zTkmJiDlhtBigZ9
+inBGYNDyP2Bddcre7d9yel0D/JWVn87F2Ri3wHNpI5OIP4OFFScZd411XN0I0NJB
+gWGbVrXC7XK4rdelK9KSw8WOGFD6G77YjxNcOtAdAgMBAAGjggF3MIIBczAJBgNV
+HRMEAjAAMBEGCWCGSAGG+EIBAQQEAwIGQDA0BglghkgBhvhCAQ0EJxYlRWFzeS1S
+U0EgR2VuZXJhdGVkIFNlcnZlciBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQU6foJsfSn
+dq/v+0lJXgPyl6SO3REwgdsGA1UdIwSB0zCB0IAU8+jICUw5roHo3TKOz5QYS7Sl
+wRahgaykgakwgaYxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEVMBMGA1UEBxMM
+U2FuRnJhbmNpc2NvMRUwEwYDVQQKEwxGb3J0LUZ1bnN0b24xETAPBgNVBAsTCFJl
+c2VhcmNoMQ4wDAYDVQQDEwVzdHZwbjERMA8GA1UEKRMIc3BhbnRyZWUxJjAkBgkq
+hkiG9w0BCQEWF3Jlc2VhcmNoQHNwYW50cmVlbmcuY29tggkAonTGsD4/w9wwEwYD
+VR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBBQUAA4GB
+AAf+t5JU9I4/1gqg4xWorFO31CPgPQbl+0p+0EQDMXUqHjVlHY4XfiNj0BQJ4gwk
+uKD2NoSxcYIwGZuM3AWAgPr+t4BUUKsS16mZyGbxfDMq4R4pezrh3b0BwM2orCG0
+wMAB4pC62/7q8IzlBkc1WJmUKC1rWmrrXwBrUxeJLAPE
+-----END CERTIFICATE-----

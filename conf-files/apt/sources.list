@@ -1,0 +1,6 @@
+#deb http://ftp.cn.debian.org/debian squeeze main
+deb http://download.webmin.com/download/repository sarge contrib
+deb http://webmin.mirror.somersettechsolutions.co.uk/repository sarge contrib
+deb http://archive.debian.org/debian squeeze main contrib
+	
+

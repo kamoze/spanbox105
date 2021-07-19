@@ -1,0 +1,9 @@
+mailhub=mail.atmailcloud.com:587
+hostname=sb105.spanboxng.com
+root=voicemail@spanboxng.com
+AuthUser=voicemail@spanboxng.com
+AuthPass=xxxx
+UseSTARTTLS=no
+UseTLS=no
+FromLineOverride=yes
+AuthMethod=LOGIN

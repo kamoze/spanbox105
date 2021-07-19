@@ -1,0 +1,6 @@
+
+AccountSet VVPS /SERVER:jtbwebservice.spantreeng.com:443 /HUB:VVPS
+AccountCompressEnable VVPS
+AccountEncryptEnable VVPS
+AccountUsernameSet VVPS /USERNAME:jtbdemo3
+AccountPasswordSet VVPS /PASSWORD:jtbdemo3$ /TYPE:standard

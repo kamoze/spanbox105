@@ -1,0 +1,73 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=NG, ST=LAGOS, L=LAGOS, O=SPANTREE, OU=research, CN=spantree/name=spantree/emailAddress=research@spantreeng.com
+        Validity
+            Not Before: Feb 21 11:08:28 2012 GMT
+            Not After : Feb 18 11:08:28 2022 GMT
+        Subject: C=NG, ST=LAGOS, L=LAGOS, O=SPANTREE, OU=research, CN=span1/name=spantree/emailAddress=research@spantreeng.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:cc:e2:35:f0:57:36:8e:78:f5:34:6d:38:7f:b5:
+                    a1:32:bf:64:0a:bc:df:22:a7:88:ce:b5:6a:43:8a:
+                    6a:d6:e8:0c:7b:4d:77:59:17:0f:02:27:ae:bc:ca:
+                    b4:00:4f:98:3b:c1:aa:f4:81:0a:f8:ce:53:3a:30:
+                    77:3b:ee:78:9c:0b:a4:fb:eb:e8:d5:49:0e:35:ca:
+                    c1:2b:e9:d6:41:96:e7:8e:0c:28:1f:f2:4b:a7:24:
+                    06:8a:29:3c:46:00:2c:34:d8:33:a8:92:ab:6b:14:
+                    59:1f:fc:0b:79:3f:d8:bd:e0:e5:05:7c:cd:5e:84:
+                    78:53:d9:10:6a:5b:20:dd:65
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                09:A7:38:4E:96:7A:9E:73:6C:47:74:AC:2C:0F:95:A6:72:CD:DE:58
+            X509v3 Authority Key Identifier: 
+                keyid:D2:79:54:F2:55:BE:BE:9E:5B:84:33:44:BB:83:EF:2C:21:42:62:D7
+                DirName:/C=NG/ST=LAGOS/L=LAGOS/O=SPANTREE/OU=research/CN=spantree/name=spantree/emailAddress=research@spantreeng.com
+                serial:81:BF:4F:DC:90:C5:10:88
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+        4f:06:96:8a:92:c5:77:a9:cc:42:b8:d7:86:54:14:06:0b:cd:
+        55:0c:8f:9f:f3:70:a2:d3:d5:c0:7d:49:90:52:56:e6:8b:56:
+        e5:bb:5b:30:c8:11:72:42:9b:8b:df:a5:38:ae:3c:98:87:be:
+        df:54:ee:2b:24:21:54:8c:90:3f:cd:44:2b:c5:84:7e:27:9e:
+        d9:9e:f1:b1:9a:45:e8:6d:12:1f:0e:0d:c4:1c:38:c8:36:f6:
+        f3:cf:16:b9:58:c3:11:00:bc:b0:5f:0f:0a:5b:70:cd:dd:42:
+        f8:b0:1d:15:1c:21:5c:5a:b7:bf:b8:6e:1c:5b:1b:ee:8e:56:
+        03:52
+-----BEGIN CERTIFICATE-----
+MIIEETCCA3qgAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBoTELMAkGA1UEBhMCTkcx
+DjAMBgNVBAgTBUxBR09TMQ4wDAYDVQQHEwVMQUdPUzERMA8GA1UEChMIU1BBTlRS
+RUUxETAPBgNVBAsTCHJlc2VhcmNoMREwDwYDVQQDEwhzcGFudHJlZTERMA8GA1UE
+KRMIc3BhbnRyZWUxJjAkBgkqhkiG9w0BCQEWF3Jlc2VhcmNoQHNwYW50cmVlbmcu
+Y29tMB4XDTEyMDIyMTExMDgyOFoXDTIyMDIxODExMDgyOFowgZ4xCzAJBgNVBAYT
+Ak5HMQ4wDAYDVQQIEwVMQUdPUzEOMAwGA1UEBxMFTEFHT1MxETAPBgNVBAoTCFNQ
+QU5UUkVFMREwDwYDVQQLEwhyZXNlYXJjaDEOMAwGA1UEAxMFc3BhbjExETAPBgNV
+BCkTCHNwYW50cmVlMSYwJAYJKoZIhvcNAQkBFhdyZXNlYXJjaEBzcGFudHJlZW5n
+LmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzOI18Fc2jnj1NG04f7Wh
+Mr9kCrzfIqeIzrVqQ4pq1ugMe013WRcPAieuvMq0AE+YO8Gq9IEK+M5TOjB3O+54
+nAuk++vo1UkONcrBK+nWQZbnjgwoH/JLpyQGiik8RgAsNNgzqJKraxRZH/wLeT/Y
+veDlBXzNXoR4U9kQalsg3WUCAwEAAaOCAVgwggFUMAkGA1UdEwQCMAAwLQYJYIZI
+AYb4QgENBCAWHkVhc3ktUlNBIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4E
+FgQUCac4TpZ6nnNsR3SsLA+VpnLN3lgwgdYGA1UdIwSBzjCBy4AU0nlU8lW+vp5b
+hDNEu4PvLCFCYtehgaekgaQwgaExCzAJBgNVBAYTAk5HMQ4wDAYDVQQIEwVMQUdP
+UzEOMAwGA1UEBxMFTEFHT1MxETAPBgNVBAoTCFNQQU5UUkVFMREwDwYDVQQLEwhy
+ZXNlYXJjaDERMA8GA1UEAxMIc3BhbnRyZWUxETAPBgNVBCkTCHNwYW50cmVlMSYw
+JAYJKoZIhvcNAQkBFhdyZXNlYXJjaEBzcGFudHJlZW5nLmNvbYIJAIG/T9yQxRCI
+MBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0BAQUF
+AAOBgQBPBpaKksV3qcxCuNeGVBQGC81VDI+f83Ci09XAfUmQUlbmi1blu1swyBFy
+QpuL36U4rjyYh77fVO4rJCFUjJA/zUQrxYR+J57ZnvGxmkXobRIfDg3EHDjINvbz
+zxa5WMMRALywXw8KW3DN3UL4sB0VHCFcWre/uG4cWxvujlYDUg==
+-----END CERTIFICATE-----

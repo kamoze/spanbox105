@@ -1,0 +1,4 @@
+modules=core/2.216 mod_log_config/2.216 worker/2.216 mod_alias/2.216 mod_auth_basic/2.216 mod_authn_file/2.216 mod_authz_groupfile/2.216 mod_authz_host/2.216 mod_autoindex/2.216 mod_dir/2.216 mod_env/2.216 mod_mime/2.216 mod_negotiation/2.216 mod_setenvif/2.216 mod_status/2.216
+webmin=1.590
+path=/usr/sbin/apache2
+size=390692

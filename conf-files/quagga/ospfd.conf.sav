@@ -1,0 +1,63 @@
+!
+! Zebra configuration saved from vty
+!   2016/10/14 08:28:48
+!
+hostname spanbox105
+password sp@nb0x
+!
+!
+!
+interface eth0
+!
+interface eth1
+!
+interface eth2
+!
+interface eth3
+!
+interface eth4
+!
+interface eth5
+!
+interface imq0
+!
+interface imq1
+!
+interface lo
+!
+interface pan0
+!
+interface sit0
+!
+interface tun0
+!
+interface uap0
+!
+interface vpn_vc
+!
+interface vpn_vvps
+ ip ospf network broadcast
+ ip ospf priority 0
+!
+router ospf
+ ospf router-id 10.123.1.216
+ redistribute kernel metric 100 metric-type 1
+ redistribute connected metric 100 metric-type 1 route-map NoWAN
+ redistribute static metric 100 metric-type 1
+ network 10.177.0.0/16 area 0.0.0.0
+ neighbor 10.177.0.1
+!
+ip prefix-list mgtip seq 5 deny 192.168.254.252/30
+ip prefix-list mgtip seq 10 permit any
+!
+route-map NoWAN permit 10
+ match interface eth1
+ match ip address prefix-list mgtip
+!
+route-map NoWAN permit 11
+ match interface uap0
+!
+route-map NoWAN deny 100
+!
+line vty
+!

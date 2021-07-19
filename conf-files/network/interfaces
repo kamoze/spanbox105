@@ -1,0 +1,9 @@
+
+auto lo eth1 eth0 lo:1 uap0
+iface lo inet loopback
+iface eth0 inet dhcp
+post-up /usr/bin/nameserver.sh 
+iface eth1 inet static
+address 192.168.46.1
+netmask 255.255.255.0
+network 192.168.46.0

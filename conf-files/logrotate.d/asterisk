@@ -1,0 +1,12 @@
+/var/log/asterisk/messages {
+	size 5k
+	missingok
+	rotate 3
+	compress
+	delaycompress
+	notifempty
+	sharedscripts
+	postrotate
+		/etc/init.d/asterisk reload > /dev/null
+	endscript
+}

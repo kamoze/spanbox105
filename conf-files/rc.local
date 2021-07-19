@@ -1,0 +1,39 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+mount -a
+# We keep the default date as 08:08, Aug 8 2009. 
+#DEF_DATE=`date "+%s" --date="08:08 08 Aug 2009"`
+
+#NOW_DATE=`date "+%s"`
+
+#if [ $DEF_DATE -gt $NOW_DATE ]; then
+#        date 080808082009
+#fi
+#mkdir -p /var/cache/apt/archives/partial
+echo "0" > /usr/bin/setipvc.txt
+echo "0" > /usr/bin/setipvvps.txt
+/root/init_setup8787.sh
+/etc/quagga/router-id.sh
+#
+/usr/bin/dhcpreset.sh
+#
+#
+sed -i "/ACCEPT in:192.168.254.253 fw all/d" /etc/shorewall/rules
+#
+sed -i "1i ACCEPT in:192.168.254.253 fw all" /etc/shorewall/rules
+#
+shorewall start
+
+
+route add -net 5.5.5.0 netmask 255.255.255.0 gw 172.17.16.1 metric 1
+route add -host 5.5.5.5 gw 172.17.16.1 metric 1

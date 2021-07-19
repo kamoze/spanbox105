@@ -1,0 +1,125 @@
+$VAR1 = [
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'add and remove users and groups',
+            'version' => '3.112+nmu2',
+            'name' => 'adduser',
+            'update' => 'adduser'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ALSA driver configuration files',
+            'version' => '1.0.23+dfsg-2',
+            'name' => 'alsa-base',
+            'update' => 'alsa-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Utilities for configuring and using ALSA',
+            'version' => '1.0.23-3',
+            'name' => 'alsa-utils',
+            'update' => 'alsa-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Apache HTTP Server metapackage',
+            'version' => '2.2.16-6+squeeze8',
+            'name' => 'apache2',
+            'update' => 'apache2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Apache HTTP Server - traditional non-threaded model',
+            'version' => '2.2.16-6+squeeze8',
+            'name' => 'apache2-mpm-prefork',
+            'update' => 'apache2-mpm-prefork'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'utility programs for webservers',
+            'version' => '2.2.16-6+squeeze4',
+            'name' => 'apache2-utils',
+            'update' => 'apache2-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Apache HTTP Server common binary files',
+            'version' => '2.2.16-6+squeeze8',
+            'name' => 'apache2.2-bin',
+            'update' => 'apache2.2-bin'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Apache HTTP Server common files',
+            'version' => '2.2.16-6+squeeze8',
+            'name' => 'apache2.2-common',
+            'update' => 'apache2.2-common'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Advanced front-end for dpkg',
+            'version' => '0.8.10.3+squeeze1',
+            'name' => 'apt',
+            'update' => 'apt'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'search for files within Debian packages (command-line interface)',
+            'version' => '2.4.0',
+            'name' => 'apt-file',
+            'update' => 'apt-file'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'lists available package versions with distribution',
+            'version' => '0.16',
+            'name' => 'apt-show-versions',
+            'update' => 'apt-show-versions'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'APT utility programs',
+            'version' => '0.8.10.3+squeeze1',
+            'name' => 'apt-utils',
+            'update' => 'apt-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'terminal-based package manager (terminal interface only)',
+            'version' => '0.6.3-3.2',
+            'name' => 'aptitude',
+            'update' => 'aptitude'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'advanced TFTP client',
+            'version' => '0.7.dfsg-9.1',
+            'name' => 'atftp',
+            'update' => 'atftp'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Debian base system miscellaneous files',
+            'version' => '6.0squeeze2',
+            'name' => 'base-files',
+            'update' => 'base-files'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Debian base system mast

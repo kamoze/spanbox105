@@ -1,0 +1,813 @@
+$VAR1 = [
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.2.16-6+squeeze12',
+            'name' => 'apache2',
+            'update' => 'apache2'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.2.16-6+squeeze12',
+            'name' => 'apache2-mpm-prefork',
+            'update' => 'apache2-mpm-prefork'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.2.16-6+squeeze12',
+            'name' => 'apache2-utils',
+            'update' => 'apache2-utils'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.2.16-6+squeeze12',
+            'name' => 'apache2.2-bin',
+            'update' => 'apache2.2-bin'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.2.16-6+squeeze12',
+            'name' => 'apache2.2-common',
+            'update' => 'apache2.2-common'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '0.16+squeeze1',
+            'name' => 'apt-show-versions',
+            'update' => 'apt-show-versions'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '0.6.3-3.2+squeeze1',
+            'name' => 'aptitude',
+            'update' => 'aptitude'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '6.0squeeze10',
+            'name' => 'base-files',
+            'update' => 'base-files'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '20090814+nmu3squeeze1',
+            'name' => 'ca-certificates',
+            'update' => 'ca-certificates'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '7.21.0-2.1+squeeze8',
+            'name' => 'curl',
+            'update' => 'curl'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.2.24-4+squeeze2',
+            'name' => 'dbus',
+            'update' => 'dbus'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.2.24-4+squeeze2',
+            'name' => 'dbus-x11',
+            'update' => 'dbus-x11'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2010.08.28+squeeze1',
+            'name' => 'debian-archive-keyring',
+            'update' => 'debian-archive-keyring'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '4.1.1-P1-15+squeeze8',
+            'name' => 'dhcp3-client',
+            'update' => 'dhcp3-client'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '4.1.1-P1-15+squeeze8',
+            'name' => 'dhcp3-common',
+            'update' => 'dhcp3-common'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.15.11',
+            'name' => 'dpkg',
+            'update' => 'dpkg'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.15.11',
+            'name' => 'dpkg-dev',
+            'update' => 'dpkg-dev'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.04-5+squeeze5',
+            'name' => 'file',
+            'update' => 'file'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.4.10-4+squeeze4',
+            'name' => 'gnupg',
+            'update' => 'gnupg'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.4.10-4+squeeze4',
+            'name' => 'gpgv',
+            'update' => 'gpgv'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.6.3-3+squeeze1',
+            'name' => 'grep',
+            'update' => 'grep'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.3.12-9+squeeze1',
+            'name' => 'gzip',
+            'update' => 'gzip'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.88dsf-13.1+squeeze1',
+            'name' => 'initscripts',
+            'update' => 'initscripts'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.3.3-7+squeeze19',
+            'name' => 'libapache2-mod-php5',
+            'update' => 'libapache2-mod-php5'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.4.2-6+squeeze4',
+            'name' => 'libapr1',
+            'update' => 'libapr1'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.9.2-4squeeze1',
+            'name' => 'libaudio2',
+            'update' => 'libaudio2'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '4',
+            'system' => 'apt',
+            'version' => '0.5.10-1',
+            'name' => 'libavcodec52',
+            'update' => 'libavcodec52'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '4',
+            'system' => 'apt',
+            'version' => '0.5.10-1',
+            'name' => 'libavformat52',
+            'update' => 'libavformat52'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '4',
+            'system' => 'apt',
+            'version' => '0.5.10-1',
+            'name' => 'libavutil49',
+            'update' => 'libavutil49'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.11.3-4',
+            'name' => 'libc-bin',
+            'update' => 'libc-bin'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.11.3-4',
+            'name' => 'libc-dev-bin',
+            'update' => 'libc-dev-bin'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.11.3-4',
+            'name' => 'libc6',
+            'update' => 'libc6'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.11.3-4',
+            'name' => 'libc6-dev',
+            'update' => 'libc6-dev'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.4.4-7+squeeze5',
+            'name' => 'libcups2',
+            'update' => 'libcups2'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '7.21.0-2.1+squeeze8',
+            'name' => 'libcurl3',
+            'update' => 'libcurl3'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.612-1+deb6u1',
+            'name' => 'libdbi-perl',
+            'update' => 'libdbi-perl'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.2.24-4+squeeze2',
+            'name' => 'libdbus-1-3',
+            'update' => 'libdbus-1-3'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '0.88-2.1+squeeze1',
+            'name' => 'libdbus-glib-1-2',
+            'update' => 'libdbus-glib-1-2'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.15.11',
+            'name' => 'libdpkg-perl',
+            'update' => 'libdpkg-perl'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.0.1-7+squeeze1',
+            'name' => 'libexpat1',
+            'update' => 'libexpat1'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.4.2-2.1+squeeze4',
+            'name' => 'libfreetype6',
+            'update' => 'libfreetype6'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.4.5-2+squeeze1',
+            'name' => 'libgcrypt11',
+            'update' => 'libgcrypt11'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '7.7.1-6',
+            'name' => 'libgl1-mesa-dri',
+            'update' => 'libgl1-mesa-dri'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '7.7.1-6',
+            'name' => 'libgl1-mesa-glx',
+            'update' => 'libgl1-mesa-glx'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.8.6-1+squeeze3',
+            'name' => 'libgnutls26',
+            'update' => 'libgnutls26'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.8.3+dfsg-4squeeze7',
+            'name' => 'libgssapi-krb5-2',
+            'update' => 'libgssapi-krb5-2'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.8.3+dfsg-4squeeze7',
+            'name' => 'libk5crypto3',
+            'update' => 'libk5crypto3'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.8.3+dfsg-4squeeze7',
+            'name' => 'libkrb5-3',
+            'update' => 'libkrb5-3'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.8.3+dfsg-4squeeze7',
+            'name' => 'libkrb5support0',
+            'update' => 'libkrb5support0'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.4.23-7.3',
+            'name' => 'libldap-2.4-2',
+            'update' => 'libldap-2.4-2'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.04-5+squeeze5',
+            'name' => 'libmagic1',
+            'update' => 'libmagic1'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.3+dfsg-4+squeeze3',
+            'name' => 'libopenjpeg2',
+            'update' => 'libopenjpeg2'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.1.1-6.1+squeeze1',
+            'name' => 'libpam-modules',
+            'update' => 'libpam-modules'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.1.1-6.1+squeeze1',
+            'name' => 'libpam-runtime',
+            'update' => 'libpam-runtime'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.1.1-6.1+squeeze1',
+            'name' => 'libpam0g',
+            'update' => 'libpam0g'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.1.1-2+squeeze1',
+            'name' => 'libpcap0.8',
+            'update' => 'libpcap0.8'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.2.44-1+squeeze4',
+            'name' => 'libpng12-0',
+            'update' => 'libpng12-0'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '0.96-4+squeeze2',
+            'name' => 'libpolkit-gobject-1-0',
+            'update' => 'libpolkit-gobject-1-0'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '4',
+            'system' => 'apt',
+            'version' => '0.5.10-1',
+            'name' => 'libpostproc51',
+            'update' => 'libpostproc51'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '3.5.6~dfsg-3squeeze11',
+            'name' => 'libsmbclient',
+            'update' => 'libsmbclient'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.0.21-3+squeeze1',
+            'name' => 'libsndfile1',
+            'update' => 'libsndfile1'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '0.9.8o-4squeeze14',
+            'name' => 'libssl0.9.8',
+            'update' => 'libssl0.9.8'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '4',
+            'system' => 'apt',
+            'version' => '0.5.10-1',
+            'name' => 'libswscale0',
+            'update' => 'libswscale0'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.1.2-3+squeeze1',
+            'name' => 'libt1-5',
+            'update' => 'libt1-5'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.7-1+squeeze+1',
+            'name' => 'libtasn1-3',
+            'update' => 'libtasn1-3'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '3.5.6~dfsg-3squeeze11',
+            'name' => 'libwbclient0',
+            'update' => 'libwbclient0'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '1.3.3-4+squeeze1',
+            'name' => 'libx11-6',
+            'update' => 'libx11-6'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '1.3.3-4+squeeze1',
+            'name' => 'libx11-data',
+            'update' => 'libx11-data'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.6-1+squeeze1',
+            'name' => 'libxcb1',
+            'update' => 'libxcb1'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '1.1.2-1+squeeze1',
+            'name' => 'libxext6',
+            'update' => 'libxext6'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '4.0.5-1+squeeze1',
+            'name' => 'libxfixes3',
+            'update' => 'libxfixes3'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '1.3-8',
+            'name' => 'libxi6',
+            'update' => 'libxi6'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '1.1-3+squeeze1',
+            'name' => 'libxinerama1',
+            'update' => 'libxinerama1'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.7.8.dfsg-2+squeeze8',
+            'name' => 'libxml2',
+            'update' => 'libxml2'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.7.8.dfsg-2+squeeze8',
+            'name' => 'libxml2-dev',
+            'update' => 'libxml2-dev'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '1.0.7-1+squeeze1',
+            'name' => 'libxt6',
+            'update' => 'libxt6'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '1.1.0-3+squeeze1',
+            'name' => 'libxtst6',
+            'update' => 'libxtst6'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '1.0.5-1+squeeze1',
+            'name' => 'libxv1',
+            'update' => 'libxv1'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '1.0.5-1+squeeze2',
+            'name' => 'libxvmc1',
+            'update' => 'libxvmc1'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '1.1.1-2+squeeze1',
+            'name' => 'libxxf86dga1',
+            'update' => 'libxxf86dga1'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '1.1.0-2+squeeze1',
+            'name' => 'libxxf86vm1',
+            'update' => 'libxxf86vm1'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.6.32-48squeeze6',
+            'name' => 'linux-libc-dev',
+            'update' => 'linux-libc-dev'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.11.3-4',
+            'name' => 'locales',
+            'update' => 'locales'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '0.1.15+squeeze1',
+            'name' => 'lockfile-progs',
+            'update' => 'lockfile-progs'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '3.12-2',
+            'name' => 'module-init-tools',
+            'update' => 'module-init-tools'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '5.5p1-6+squeeze5',
+            'name' => 'openssh-client',
+            'update' => 'openssh-client'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '5.5p1-6+squeeze5',
+            'name' => 'openssh-server',
+            'update' => 'openssh-server'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.1.3-2+squeeze2',
+            'name' => 'openvpn',
+            'update' => 'openvpn'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.10.1-17squeeze6',
+            'name' => 'perl',
+            'update' => 'perl'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.10.1-17squeeze6',
+            'name' => 'perl-base',
+            'update' => 'perl-base'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.10.1-17squeeze6',
+            'name' => 'perl-modules',
+            'update' => 'perl-modules'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.3.3-7+squeeze19',
+            'name' => 'php5-cgi',
+            'update' => 'php5-cgi'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.3.3-7+squeeze19',
+            'name' => 'php5-cli',
+            'update' => 'php5-cli'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.3.3-7+squeeze19',
+            'name' => 'php5-common',
+            'update' => 'php5-common'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '5.3.3-7+squeeze19',
+            'name' => 'php5-gd',
+            'update' => 'php5-gd'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '3.2.8-9squeeze1',
+            'name' => 'procps',
+            'update' => 'procps'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.6.6-3+squeeze7',
+            'name' => 'python',
+            'update' => 'python'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.6.6-3+squeeze7',
+            'name' => 'python-minimal',
+            'update' => 'python-minimal'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '0.99.20.1-0+squeeze5',
+            'name' => 'quagga',
+            'update' => 'quagga'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '3.5.6~dfsg-3squeeze11',
+            'name' => 'samba',
+            'update' => 'samba'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '3.5.6~dfsg-3squeeze11',
+            'name' => 'samba-common',
+            'update' => 'samba-common'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '2',
+            'system' => 'apt',
+            'version' => '3.5.6~dfsg-3squeeze11',
+            'name' => 'samba-common-bin',
+            'update' => 'samba-common-bin'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '3',
+            'system' => 'apt',
+            'version' => '4.29-1+squeeze1',
+            'name' => 'stunnel4',
+            'update' => 'stunnel4'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.7.4p4-2.squeeze.4',
+            'name' => 'sudo',
+            'update' => 'sudo'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.88dsf-13.1+squeeze1',
+            'name' => 'sysv-rc',
+            'update' => 'sysv-rc'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.88dsf-13.1+squeeze1',
+            'name' => 'sysvinit',
+            'update' => 'sysvinit'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2.88dsf-13.1+squeeze1',
+            'name' => 'sysvinit-utils',
+            'update' => 'sysvinit-utils'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '2014e-0squeeze1',
+            'name' => 'tzdata',
+            'update' => 'tzdata'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '4.38+nmu1+squeeze1',
+            'name' => 'update-inetd',
+            'update' => 'update-inetd'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '0.87-5squeeze1',
+            'name' => 'usbutils',
+            'update' => 'usbutils'
+          },
+          {
+            'source' => 'sarge',
+            'system' => 'apt',
+            'version' => '1.890',
+            'name' => 'webmin',
+            'update' => 'webmin'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '7.5+8+squeeze1',
+            'name' => 'x11-common',
+            'update' => 'x11-common'
+          }
+        ];

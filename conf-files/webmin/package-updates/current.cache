@@ -1,0 +1,3394 @@
+$VAR1 = [
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'add and remove users and groups',
+            'version' => '3.112+nmu2',
+            'name' => 'adduser',
+            'update' => 'adduser'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ALSA driver configuration files',
+            'version' => '1.0.23+dfsg-2',
+            'name' => 'alsa-base',
+            'update' => 'alsa-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Utilities for configuring and using ALSA',
+            'version' => '1.0.23-3',
+            'name' => 'alsa-utils',
+            'update' => 'alsa-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Apache HTTP Server metapackage',
+            'version' => '2.2.16-6+squeeze8',
+            'name' => 'apache2',
+            'update' => 'apache2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Apache HTTP Server - traditional non-threaded model',
+            'version' => '2.2.16-6+squeeze8',
+            'name' => 'apache2-mpm-prefork',
+            'update' => 'apache2-mpm-prefork'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'utility programs for webservers',
+            'version' => '2.2.16-6+squeeze4',
+            'name' => 'apache2-utils',
+            'update' => 'apache2-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Apache HTTP Server common binary files',
+            'version' => '2.2.16-6+squeeze8',
+            'name' => 'apache2.2-bin',
+            'update' => 'apache2.2-bin'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Apache HTTP Server common files',
+            'version' => '2.2.16-6+squeeze8',
+            'name' => 'apache2.2-common',
+            'update' => 'apache2.2-common'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Advanced front-end for dpkg',
+            'version' => '0.8.10.3+squeeze1',
+            'name' => 'apt',
+            'update' => 'apt'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'search for files within Debian packages (command-line interface)',
+            'version' => '2.4.0',
+            'name' => 'apt-file',
+            'update' => 'apt-file'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'lists available package versions with distribution',
+            'version' => '0.16',
+            'name' => 'apt-show-versions',
+            'update' => 'apt-show-versions'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'APT utility programs',
+            'version' => '0.8.10.3+squeeze1',
+            'name' => 'apt-utils',
+            'update' => 'apt-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'terminal-based package manager (terminal interface only)',
+            'version' => '0.6.3-3.2',
+            'name' => 'aptitude',
+            'update' => 'aptitude'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'advanced TFTP client',
+            'version' => '0.7.dfsg-9.1',
+            'name' => 'atftp',
+            'update' => 'atftp'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Debian base system miscellaneous files',
+            'version' => '6.0squeeze2',
+            'name' => 'base-files',
+            'update' => 'base-files'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Debian base system master password and group files',
+            'version' => '3.5.22',
+            'name' => 'base-passwd',
+            'update' => 'base-passwd'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GNU Bourne Again SHell',
+            'version' => '4.1-3',
+            'name' => 'bash',
+            'update' => 'bash'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GNU bc arbitrary precision calculator language',
+            'version' => '1.06.95-2',
+            'name' => 'bc',
+            'update' => 'bc'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GNU assembler, linker and binary utilities',
+            'version' => '2.20.1-16',
+            'name' => 'binutils',
+            'update' => 'binutils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Bluetooth tools and daemons',
+            'version' => '4.66-3',
+            'name' => 'bluez',
+            'update' => 'bluez'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Bluetooth ALSA support',
+            'version' => '4.66-3',
+            'name' => 'bluez-alsa',
+            'update' => 'bluez-alsa'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Utilities for configuring the Linux Ethernet bridge',
+            'version' => '1.4-5',
+            'name' => 'bridge-utils',
+            'update' => 'bridge-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'collection of more utilities from FreeBSD',
+            'version' => '8.0.13',
+            'name' => 'bsdmainutils',
+            'update' => 'bsdmainutils'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'Basic utilities from 4.4BSD-Lite',
+            'version' => '2.17.2-9',
+            'name' => 'bsdutils',
+            'update' => 'bsdutils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Informational list of build-essential packages',
+            'version' => '11.5',
+            'name' => 'build-essential',
+            'update' => 'build-essential'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'Tiny utilities for small and embedded systems',
+            'version' => '1.17.1-8',
+            'name' => 'busybox',
+            'update' => 'busybox'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'high-quality block-sorting file compressor - utilities',
+            'version' => '1.0.5-6+squeeze1',
+            'name' => 'bzip2',
+            'update' => 'bzip2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Common CA certificates',
+            'version' => '20090814+nmu2',
+            'name' => 'ca-certificates',
+            'update' => 'ca-certificates'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'console font and keymap setup program',
+            'version' => '1.68+squeeze2',
+            'name' => 'console-setup',
+            'update' => 'console-setup'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Fixed-width fonts for fast reading on the Linux console',
+            'version' => '4.30-2',
+            'name' => 'console-terminus',
+            'update' => 'console-terminus'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'framework for defining and tracking users, sessions and seats',
+            'version' => '0.4.1-4',
+            'name' => 'consolekit',
+            'update' => 'consolekit'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU core utilities',
+            'version' => '8.5-1',
+            'name' => 'coreutils',
+            'update' => 'coreutils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU cpio -- a program to manage archives of files',
+            'version' => '2.11-4',
+            'name' => 'cpio',
+            'update' => 'cpio'
+          },
+          {
+            'epoch' => '4',
+            'system' => 'apt',
+            'desc' => 'The GNU C preprocessor (cpp)',
+            'version' => '4.4.5-1',
+            'name' => 'cpp',
+            'update' => 'cpp'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GNU C preprocessor',
+            'version' => '4.4.5-8',
+            'name' => 'cpp-4.4',
+            'update' => 'cpp-4.4'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'process scheduling daemon',
+            'version' => '3.0pl1-116',
+            'name' => 'cron',
+            'update' => 'cron'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Get a file from an HTTP, HTTPS or FTP server',
+            'version' => '7.21.0-1',
+            'name' => 'curl',
+            'update' => 'curl'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'utilities for using the DAHDI kernel modules',
+            'version' => '2.2.1.1-1',
+            'name' => 'dahdi',
+            'update' => 'dahdi'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'DAHDI telephony interface - Linux userspace parts',
+            'version' => '2.3.0.1+dfsg-2',
+            'name' => 'dahdi-linux',
+            'update' => 'dahdi-linux'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'POSIX-compliant shell',
+            'version' => '0.5.5.1-7.4',
+            'name' => 'dash',
+            'update' => 'dash'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'simple interprocess messaging system',
+            'version' => '1.2.24-4+squeeze1',
+            'name' => 'dbus',
+            'update' => 'dbus'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'simple interprocess messaging system (X11 deps)',
+            'version' => '1.2.24-4+squeeze1',
+            'name' => 'dbus-x11',
+            'update' => 'dbus-x11'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Debian configuration management system',
+            'version' => '1.5.36.1',
+            'name' => 'debconf',
+            'update' => 'debconf'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'full internationalization support for debconf',
+            'version' => '1.5.36.1',
+            'name' => 'debconf-i18n',
+            'update' => 'debconf-i18n'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GnuPG archive keys of the Debian archive',
+            'version' => '2010.08.28',
+            'name' => 'debian-archive-keyring',
+            'update' => 'debian-archive-keyring'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Miscellaneous utilities specific to Debian',
+            'version' => '3.4',
+            'name' => 'debianutils',
+            'update' => 'debianutils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Debian Font Manager -- automatic font configuration framework',
+            'version' => '0.11.11',
+            'name' => 'defoma',
+            'update' => 'defoma'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ISC DHCP server (transitional package)',
+            'version' => '4.1.1-P1-15+squeeze2',
+            'name' => 'dhcp3-client',
+            'update' => 'dhcp3-client'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ISC DHCP common files (transitional package)',
+            'version' => '4.1.1-P1-15+squeeze2',
+            'name' => 'dhcp3-common',
+            'update' => 'dhcp3-common'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'dummy transitional package for diff -> diffutils',
+            'version' => '3.0-1',
+            'name' => 'diff',
+            'update' => 'diff'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'File comparison utilities',
+            'version' => '3.0-1',
+            'name' => 'diffutils',
+            'update' => 'diffutils'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'The Linux Kernel Device Mapper userspace library',
+            'version' => '1.02.48-5',
+            'name' => 'dmsetup',
+            'update' => 'dmsetup'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'A small caching DNS proxy and DHCP/TFTP server',
+            'version' => '2.55-2',
+            'name' => 'dnsmasq-base',
+            'update' => 'dnsmasq-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Debian package management system',
+            'version' => '1.15.8.12',
+            'name' => 'dpkg',
+            'update' => 'dpkg'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Debian package development tools',
+            'version' => '1.15.8.12',
+            'name' => 'dpkg-dev',
+            'update' => 'dpkg-dev'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ext2/ext3/ext4 file system libraries',
+            'version' => '1.41.12-4stable1',
+            'name' => 'e2fslibs',
+            'update' => 'e2fslibs'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ext2/ext3/ext4 file system utilities',
+            'version' => '1.41.12-4stable1',
+            'name' => 'e2fsprogs',
+            'update' => 'e2fsprogs'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The classic UNIX line editor',
+            'version' => '1.4-3',
+            'name' => 'ed',
+            'update' => 'ed'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ejects CDs and operates CD-Changers under Linux',
+            'version' => '2.1.5+deb1+cvs20081104-7.1',
+            'name' => 'eject',
+            'update' => 'eject'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Enlightened Sound Daemon - clients',
+            'version' => '0.2.41-8',
+            'name' => 'esound-clients',
+            'update' => 'esound-clients'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Enlightened Sound Daemon - Common files',
+            'version' => '0.2.41-8',
+            'name' => 'esound-common',
+            'update' => 'esound-common'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Gives a fake root environment',
+            'version' => '1.14.4-1',
+            'name' => 'fakeroot',
+            'update' => 'fakeroot'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'File Alteration Monitor',
+            'version' => '2.7.0-17',
+            'name' => 'fam',
+            'update' => 'fam'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Determines file type using "magic" numbers',
+            'version' => '5.04-5',
+            'name' => 'file',
+            'update' => 'file'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'utilities for finding files--find, xargs',
+            'version' => '4.4.2-1+b1',
+            'name' => 'findutils',
+            'update' => 'findutils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'generic font configuration library - support binaries',
+            'version' => '2.8.0-2.1',
+            'name' => 'fontconfig',
+            'update' => 'fontconfig'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'generic font configuration library - configuration',
+            'version' => '2.8.0-2.1',
+            'name' => 'fontconfig-config',
+            'update' => 'fontconfig-config'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The FTP client',
+            'version' => '0.17-23',
+            'name' => 'ftp',
+            'update' => 'ftp'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Firmware download to EZ-USB devices',
+            'version' => '0.0.20081013-1',
+            'name' => 'fxload',
+            'update' => 'fxload'
+          },
+          {
+            'epoch' => '4',
+            'system' => 'apt',
+            'desc' => 'The GNU C++ compiler',
+            'version' => '4.4.5-1',
+            'name' => 'g++',
+            'update' => 'g++'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GNU C++ compiler',
+            'version' => '4.4.5-8',
+            'name' => 'g++-4.4',
+            'update' => 'g++-4.4'
+          },
+          {
+            'epoch' => '4',
+            'system' => 'apt',
+            'desc' => 'The GNU C compiler',
+            'version' => '4.4.5-1',
+            'name' => 'gcc',
+            'update' => 'gcc'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GNU C compiler',
+            'version' => '4.4.5-8',
+            'name' => 'gcc-4.4',
+            'update' => 'gcc-4.4'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GNU Compiler Collection (base package)',
+            'version' => '4.4.5-8',
+            'name' => 'gcc-4.4-base',
+            'update' => 'gcc-4.4-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU privacy guard - a free PGP replacement',
+            'version' => '1.4.10-4',
+            'name' => 'gnupg',
+            'update' => 'gnupg'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU privacy guard - signature verification tool',
+            'version' => '1.4.10-4',
+            'name' => 'gpgv',
+            'update' => 'gpgv'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU grep, egrep and fgrep',
+            'version' => '2.6.3-3',
+            'name' => 'grep',
+            'update' => 'grep'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU troff text-formatting system (base system components)',
+            'version' => '1.20.1-10',
+            'name' => 'groff-base',
+            'update' => 'groff-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU compression utilities',
+            'version' => '1.3.12-9',
+            'name' => 'gzip',
+            'update' => 'gzip'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Hardware Abstraction Layer',
+            'version' => '0.5.14-3',
+            'name' => 'hal',
+            'update' => 'hal'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Hardware Abstraction Layer - fdi files',
+            'version' => '20091130-1',
+            'name' => 'hal-info',
+            'update' => 'hal-info'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'utility to set/show the host name or domain name',
+            'version' => '3.04',
+            'name' => 'hostname',
+            'update' => 'hostname'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'interactive processes viewer',
+            'version' => '0.8.3-1',
+            'name' => 'htop',
+            'update' => 'htop'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Set routing metrics for a network interface',
+            'version' => '0.3-2',
+            'name' => 'ifmetric',
+            'update' => 'ifmetric'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'high level tools to configure network interfaces',
+            'version' => '0.6.10',
+            'name' => 'ifupdown',
+            'update' => 'ifupdown'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Standalone GNU Info documentation browser',
+            'version' => '4.13a.dfsg.1-6',
+            'name' => 'info',
+            'update' => 'info'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'scripts for initializing and shutting down the system',
+            'version' => '2.88dsf-13.1',
+            'name' => 'initscripts',
+            'update' => 'initscripts'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Tool to organize boot sequence using LSB init.d script dependencies',
+            'version' => '1.14.0-2',
+            'name' => 'insserv',
+            'update' => 'insserv'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Manage installed documentation in info format',
+            'version' => '4.13a.dfsg.1-6',
+            'name' => 'install-info',
+            'update' => 'install-info'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'parameter calculator for IPv4 addresses',
+            'version' => '0.41-2',
+            'name' => 'ipcalc',
+            'update' => 'ipcalc'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'networking and traffic control tools',
+            'version' => '20100519-3',
+            'name' => 'iproute',
+            'update' => 'iproute'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'administration tools for packet filtering and NAT',
+            'version' => '1.4.8-3',
+            'name' => 'iptables',
+            'update' => 'iptables'
+          },
+          {
+            'epoch' => '3',
+            'system' => 'apt',
+            'desc' => 'Tools to test the reachability of network hosts',
+            'version' => '20100418-3',
+            'name' => 'iputils-ping',
+            'update' => 'iputils-ping'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ISC DHCP client',
+            'version' => '4.1.1-P1-15+squeeze8',
+            'name' => 'isc-dhcp-client',
+            'update' => 'isc-dhcp-client'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'common files used by all the isc-dhcp* packages',
+            'version' => '4.1.1-P1-15+squeeze8',
+            'name' => 'isc-dhcp-common',
+            'update' => 'isc-dhcp-common'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ISC DHCP server for automatic IP address assignment',
+            'version' => '4.1.1-P1-15+squeeze8',
+            'name' => 'isc-dhcp-server',
+            'update' => 'isc-dhcp-server'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Linux console font and keytable utilities',
+            'version' => '1.15.2-2',
+            'name' => 'kbd',
+            'update' => 'kbd'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'system-wide keyboard preferences',
+            'version' => '1.68+squeeze2',
+            'name' => 'keyboard-configuration',
+            'update' => 'keyboard-configuration'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ascii art library',
+            'version' => '1.4p5-38',
+            'name' => 'libaa1',
+            'update' => 'libaa1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Access control list shared library',
+            'version' => '2.2.49-4',
+            'name' => 'libacl1',
+            'update' => 'libacl1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'module to find differences between files',
+            'version' => '1.19.02-2',
+            'name' => 'libalgorithm-diff-perl',
+            'update' => 'libalgorithm-diff-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'module to find differences between files (XS accelerated)',
+            'version' => '0.04-1',
+            'name' => 'libalgorithm-diff-xs-perl',
+            'update' => 'libalgorithm-diff-xs-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl module for three-way merge of textual data',
+            'version' => '0.08-2',
+            'name' => 'libalgorithm-merge-perl',
+            'update' => 'libalgorithm-merge-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'server-side, HTML-embedded scripting language (Apache 2 module)',
+            'version' => '5.3.3-7+squeeze14',
+            'name' => 'libapache2-mod-php5',
+            'update' => 'libapache2-mod-php5'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Apache Portable Runtime Library',
+            'version' => '1.4.2-6+squeeze3',
+            'name' => 'libapr1',
+            'update' => 'libapr1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Apache Portable Runtime Utility Library',
+            'version' => '1.3.9+dfsg-5',
+            'name' => 'libaprutil1',
+            'update' => 'libaprutil1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Apache Portable Runtime Utility Library - SQLite3 Driver',
+            'version' => '1.3.9+dfsg-5',
+            'name' => 'libaprutil1-dbd-sqlite3',
+            'update' => 'libaprutil1-dbd-sqlite3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Apache Portable Runtime Utility Library - LDAP Driver',
+            'version' => '1.3.9+dfsg-5',
+            'name' => 'libaprutil1-ldap',
+            'update' => 'libaprutil1-ldap'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl interface to libapt-pkg',
+            'version' => '0.1.24+b2',
+            'name' => 'libapt-pkg-perl',
+            'update' => 'libapt-pkg-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'shared library for ALSA applications',
+            'version' => '1.0.23-2.1',
+            'name' => 'libasound2',
+            'update' => 'libasound2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Asyncronous name service query library',
+            'version' => '0.3-1.1',
+            'name' => 'libasyncns0',
+            'update' => 'libasyncns0'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'Extended attribute shared library',
+            'version' => '2.4.44-2',
+            'name' => 'libattr1',
+            'update' => 'libattr1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Network Audio System - shared libraries',
+            'version' => '1.9.2-4',
+            'name' => 'libaudio2',
+            'update' => 'libaudio2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Open-source version of SGI\'s audiofile library',
+            'version' => '0.2.6-8',
+            'name' => 'libaudiofile0',
+            'update' => 'libaudiofile0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl interface to PAM library',
+            'version' => '0.16-2+b2',
+            'name' => 'libauthen-pam-perl',
+            'update' => 'libauthen-pam-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Avahi client library',
+            'version' => '0.6.27-2+squeeze1',
+            'name' => 'libavahi-client3',
+            'update' => 'libavahi-client3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Avahi common data files',
+            'version' => '0.6.27-2+squeeze1',
+            'name' => 'libavahi-common-data',
+            'update' => 'libavahi-common-data'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Avahi common library',
+            'version' => '0.6.27-2+squeeze1',
+            'name' => 'libavahi-common3',
+            'update' => 'libavahi-common3'
+          },
+          {
+            'epoch' => '4',
+            'system' => 'apt',
+            'desc' => 'ffmpeg codec library',
+            'version' => '0.5.2-6',
+            'name' => 'libavcodec52',
+            'update' => 'libavcodec52'
+          },
+          {
+            'epoch' => '4',
+            'system' => 'apt',
+            'desc' => 'ffmpeg file format library',
+            'version' => '0.5.2-6',
+            'name' => 'libavformat52',
+            'update' => 'libavformat52'
+          },
+          {
+            'epoch' => '4',
+            'system' => 'apt',
+            'desc' => 'ffmpeg utility library',
+            'version' => '0.5.2-6',
+            'name' => 'libavutil49',
+            'update' => 'libavutil49'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'block device id library',
+            'version' => '2.17.2-9',
+            'name' => 'libblkid1',
+            'update' => 'libblkid1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Library to use the BlueZ Linux Bluetooth stack',
+            'version' => '4.66-3',
+            'name' => 'libbluetooth3',
+            'update' => 'libbluetooth3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Boost.Iostreams Library',
+            'version' => '1.42.0-4',
+            'name' => 'libboost-iostreams1.42.0',
+            'update' => 'libboost-iostreams1.42.0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'utility functions from BSD systems - shared library',
+            'version' => '0.2.0-1',
+            'name' => 'libbsd0',
+            'update' => 'libbsd0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'high-quality block-sorting file compressor library - runtime',
+            'version' => '1.0.5-6+squeeze1',
+            'name' => 'libbz2-1.0',
+            'update' => 'libbz2-1.0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Embedded GNU C Library: Binaries',
+            'version' => '2.11.2-10',
+            'name' => 'libc-bin',
+            'update' => 'libc-bin'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Embedded GNU C Library: Development binaries',
+            'version' => '2.11.2-10',
+            'name' => 'libc-dev-bin',
+            'update' => 'libc-dev-bin'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Embedded GNU C Library: Shared libraries',
+            'version' => '2.11.2-10',
+            'name' => 'libc6',
+            'update' => 'libc6'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Embedded GNU C Library: Development Libraries and Header Files',
+            'version' => '2.11.2-10',
+            'name' => 'libc6-dev',
+            'update' => 'libc6-dev'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'colour ASCII art library',
+            'version' => '0.99.beta17-1',
+            'name' => 'libcaca0',
+            'update' => 'libcaca0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'An alternate posix capabilities library',
+            'version' => '0.6.4-1',
+            'name' => 'libcap-ng0',
+            'update' => 'libcap-ng0'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'support for getting/setting POSIX.1e capabilities',
+            'version' => '2.19-3',
+            'name' => 'libcap2',
+            'update' => 'libcap2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'audio extraction tool for sampling CDs (library)',
+            'version' => '3.10.2+debian-9',
+            'name' => 'libcdparanoia0',
+            'update' => 'libcdparanoia0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ConsoleKit libraries',
+            'version' => '0.4.1-4',
+            'name' => 'libck-connector0',
+            'update' => 'libck-connector0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'common error description library',
+            'version' => '1.41.12-4stable1',
+            'name' => 'libcomerr2',
+            'update' => 'libcomerr2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Parses simple configuration files',
+            'version' => '1.50-2',
+            'name' => 'libconfig-file-perl',
+            'update' => 'libconfig-file-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Common UNIX Printing System(tm) - Core library',
+            'version' => '1.4.4-7',
+            'name' => 'libcups2',
+            'update' => 'libcups2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Multi-protocol file transfer library (OpenSSL)',
+            'version' => '7.21.0-1',
+            'name' => 'libcurl3',
+            'update' => 'libcurl3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'high-level terminal interface library for C++ (runtime files)',
+            'version' => '0.5.16-3',
+            'name' => 'libcwidget3',
+            'update' => 'libcwidget3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Berkeley v4.7 Database Libraries [runtime]',
+            'version' => '4.7.25-9',
+            'name' => 'libdb4.7',
+            'update' => 'libdb4.7'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Berkeley v4.8 Database Libraries [runtime]',
+            'version' => '4.8.30-2',
+            'name' => 'libdb4.8',
+            'update' => 'libdb4.8'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl Database Interface (DBI)',
+            'version' => '1.612-1',
+            'name' => 'libdbi-perl',
+            'update' => 'libdbi-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'simple interprocess messaging system',
+            'version' => '1.2.24-4+squeeze1',
+            'name' => 'libdbus-1-3',
+            'update' => 'libdbus-1-3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'simple interprocess messaging system (GLib-based shared library)',
+            'version' => '0.88-2.1',
+            'name' => 'libdbus-glib-1-2',
+            'update' => 'libdbus-glib-1-2'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'The Linux Kernel Device Mapper userspace library',
+            'version' => '1.02.48-5',
+            'name' => 'libdevmapper1.02.1',
+            'update' => 'libdevmapper1.02.1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'open and royalty free high quality codec - encoder library',
+            'version' => '1.0.2-3',
+            'name' => 'libdirac-encoder0',
+            'update' => 'libdirac-encoder0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'direct frame buffer graphics - shared libraries',
+            'version' => '1.2.10.0-4',
+            'name' => 'libdirectfb-1.2-9',
+            'update' => 'libdirectfb-1.2-9'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Dpkg perl modules',
+            'version' => '1.15.8.12',
+            'name' => 'libdpkg-perl',
+            'update' => 'libdpkg-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Userspace interface to radeon-specific kernel DRM services -- runtime',
+            'version' => '2.4.21-1~squeeze3',
+            'name' => 'libdrm-radeon1',
+            'update' => 'libdrm-radeon1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Userspace interface to kernel DRM services -- runtime',
+            'version' => '2.4.21-1~squeeze3',
+            'name' => 'libdrm2',
+            'update' => 'libdrm2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'DVD navigation library',
+            'version' => '4.1.3-7',
+            'name' => 'libdvdnav4',
+            'update' => 'libdvdnav4'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'library for reading DVDs',
+            'version' => '4.1.3-10',
+            'name' => 'libdvdread4',
+            'update' => 'libdvdread4'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'BSD editline and history libraries',
+            'version' => '2.11-20080614-2',
+            'name' => 'libedit2',
+            'update' => 'libedit2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'D-Bus bindings for GObject',
+            'version' => '0.6-1',
+            'name' => 'libeggdbus-1-0',
+            'update' => 'libeggdbus-1-0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Extremely Naive Charset Analyser - shared library files',
+            'version' => '1.13-3',
+            'name' => 'libenca0',
+            'update' => 'libenca0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'High-level library for managing Debian package information',
+            'version' => '1.0.4',
+            'name' => 'libept1',
+            'update' => 'libept1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Enlightened Sound Daemon - Shared libraries',
+            'version' => '0.2.41-8',
+            'name' => 'libesd0',
+            'update' => 'libesd0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'XML parsing C library - runtime library',
+            'version' => '2.0.1-7',
+            'name' => 'libexpat1',
+            'update' => 'libexpat1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'freeware Advanced Audio Decoder - runtime files',
+            'version' => '2.7-6',
+            'name' => 'libfaad2',
+            'update' => 'libfaad2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Client library to control the FAM daemon',
+            'version' => '2.7.0-17',
+            'name' => 'libfam0',
+            'update' => 'libfam0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl extension for recursively copying files and directories',
+            'version' => '0.38-1',
+            'name' => 'libfile-copy-recursive-perl',
+            'update' => 'libfile-copy-recursive-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Free Lossless Audio Codec - runtime C library',
+            'version' => '1.2.1-2+b2',
+            'name' => 'libflac8',
+            'update' => 'libflac8'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Read font files and render glyphs from Perl using FreeType2',
+            'version' => '0.03-1',
+            'name' => 'libfont-freetype-perl',
+            'update' => 'libfont-freetype-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'generic font configuration library - runtime',
+            'version' => '2.8.0-2.1',
+            'name' => 'libfontconfig1',
+            'update' => 'libfontconfig1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'FreeType 2 font engine, shared library files',
+            'version' => '2.4.2-2.1',
+            'name' => 'libfreetype6',
+            'update' => 'libfreetype6'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Free Implementation of the Unicode BiDi algorithm',
+            'version' => '0.19.2-1',
+            'name' => 'libfribidi0',
+            'update' => 'libfribidi0'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'GCC support library',
+            'version' => '4.4.5-8',
+            'name' => 'libgcc1',
+            'update' => 'libgcc1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'LGPL Crypto library - runtime library',
+            'version' => '1.4.5-2',
+            'name' => 'libgcrypt11',
+            'update' => 'libgcrypt11'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GD Graphics Library version 2',
+            'version' => '2.0.36~rc1~dfsg-5',
+            'name' => 'libgd2-xpm',
+            'update' => 'libgd2-xpm'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU dbm database routines (runtime version)',
+            'version' => '1.8.3-9',
+            'name' => 'libgdbm3',
+            'update' => 'libgdbm3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'library for GIF images (library)',
+            'version' => '4.1.6-9',
+            'name' => 'libgif4',
+            'update' => 'libgif4'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'A free implementation of the OpenGL API -- DRI modules',
+            'version' => '7.7.1-4',
+            'name' => 'libgl1-mesa-dri',
+            'update' => 'libgl1-mesa-dri'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'A free implementation of the OpenGL API -- GLX runtime',
+            'version' => '7.7.1-4',
+            'name' => 'libgl1-mesa-glx',
+            'update' => 'libgl1-mesa-glx'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GLib library of C routines',
+            'version' => '2.24.2-1',
+            'name' => 'libglib2.0-0',
+            'update' => 'libglib2.0-0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Common files for GLib library',
+            'version' => '2.24.2-1',
+            'name' => 'libglib2.0-data',
+            'update' => 'libglib2.0-data'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'Multiprecision arithmetic library',
+            'version' => '4.3.2+dfsg-1',
+            'name' => 'libgmp3c2',
+            'update' => 'libgmp3c2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'the GNU TLS library - runtime library',
+            'version' => '2.8.6-1',
+            'name' => 'libgnutls26',
+            'update' => 'libgnutls26'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GCC OpenMP (GOMP) support library',
+            'version' => '4.4.5-8',
+            'name' => 'libgomp1',
+            'update' => 'libgomp1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'library for common error values and messages in GnuPG components',
+            'version' => '1.6-1',
+            'name' => 'libgpg-error0',
+            'update' => 'libgpg-error0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'General Purpose Mouse - shared library',
+            'version' => '1.20.4-3.3',
+            'name' => 'libgpm2',
+            'update' => 'libgpm2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Shared libraries for GSM speech compressor',
+            'version' => '1.0.13-3',
+            'name' => 'libgsm1',
+            'update' => 'libgsm1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'MIT Kerberos runtime libraries - krb5 GSS-API Mechanism',
+            'version' => '1.8.3+dfsg-4squeeze1',
+            'name' => 'libgssapi-krb5-2',
+            'update' => 'libgssapi-krb5-2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Hardware Abstraction Layer - shared library for storage devices',
+            'version' => '0.5.14-3',
+            'name' => 'libhal-storage1',
+            'update' => 'libhal-storage1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Hardware Abstraction Layer - shared library',
+            'version' => '0.5.14-3',
+            'name' => 'libhal1',
+            'update' => 'libhal1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'module for using HTML Templates with Perl',
+            'version' => '2.9-2',
+            'name' => 'libhtml-template-perl',
+            'update' => 'libhtml-template-perl'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 Inter-Client Exchange library',
+            'version' => '1.0.6-2',
+            'name' => 'libice6',
+            'update' => 'libice6'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU Libidn library, implementation of IETF IDN specifications',
+            'version' => '1.15-2',
+            'name' => 'libidn11',
+            'update' => 'libidn11'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'Perl module for pseudo tty IO',
+            'version' => '1.08-1',
+            'name' => 'libio-pty-perl',
+            'update' => 'libio-pty-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Wireless tools - library',
+            'version' => '30~pre9-5',
+            'name' => 'libiw30',
+            'update' => 'libiw30'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'JACK Audio Connection Kit (libraries)',
+            'version' => '1.9.6~dfsg.1-2',
+            'name' => 'libjack-jackd2-0',
+            'update' => 'libjack-jackd2-0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Independent JPEG Group\'s JPEG runtime library (version 6.2)',
+            'version' => '6b1-1',
+            'name' => 'libjpeg62',
+            'update' => 'libjpeg62'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'MIT Kerberos runtime libraries - Crypto Library',
+            'version' => '1.8.3+dfsg-4squeeze1',
+            'name' => 'libk5crypto3',
+            'update' => 'libk5crypto3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Linux Key Management Utilities (library)',
+            'version' => '1.4-1',
+            'name' => 'libkeyutils1',
+            'update' => 'libkeyutils1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'MIT Kerberos runtime libraries',
+            'version' => '1.8.3+dfsg-4squeeze1',
+            'name' => 'libkrb5-3',
+            'update' => 'libkrb5-3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'MIT Kerberos runtime libraries - Support library',
+            'version' => '1.8.3+dfsg-4squeeze1',
+            'name' => 'libkrb5support0',
+            'update' => 'libkrb5support0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'OpenLDAP libraries',
+            'version' => '2.4.23-7.2',
+            'name' => 'libldap-2.4-2',
+            'update' => 'libldap-2.4-2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'infra-red remote control support - client library',
+            'version' => '0.8.3-5+b1',
+            'name' => 'liblircclient0',
+            'update' => 'liblircclient0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl module with additional list functions not found in List::Util',
+            'version' => '0.25~02-1',
+            'name' => 'liblist-moreutils-perl',
+            'update' => 'liblist-moreutils-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Using libc functions for internationalization in Perl',
+            'version' => '1.05-6',
+            'name' => 'liblocale-gettext-perl',
+            'update' => 'liblocale-gettext-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'NFS-safe locking library, includes dotlockfile program',
+            'version' => '1.08-4',
+            'name' => 'liblockfile1',
+            'update' => 'liblockfile1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'A system independent dlopen wrapper for GNU libtool',
+            'version' => '2.2.6b-2',
+            'name' => 'libltdl7',
+            'update' => 'libltdl7'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'XZ-format compression library',
+            'version' => '5.0.0-2',
+            'name' => 'liblzma2',
+            'update' => 'liblzma2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'data compression library',
+            'version' => '2.03-2',
+            'name' => 'liblzo2-2',
+            'update' => 'liblzo2-2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'File type determination library using "magic" numbers',
+            'version' => '5.04-5',
+            'name' => 'libmagic1',
+            'update' => 'libmagic1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'multiple precision floating-point computation',
+            'version' => '3.0.0-2',
+            'name' => 'libmpfr4',
+            'update' => 'libmpfr4'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'shared libraries for terminal handling',
+            'version' => '5.7+20100313-5',
+            'name' => 'libncurses5',
+            'update' => 'libncurses5'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'developer\'s libraries and docs for ncurses',
+            'version' => '5.7+20100313-5',
+            'name' => 'libncurses5-dev',
+            'update' => 'libncurses5-dev'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'shared libraries for terminal handling (wide character support)',
+            'version' => '5.7+20100313-5',
+            'name' => 'libncursesw5',
+            'update' => 'libncursesw5'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl module for building portable Perl daemons easily',
+            'version' => '0.43-1',
+            'name' => 'libnet-daemon-perl',
+            'update' => 'libnet-daemon-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl module for Secure Sockets Layer (SSL)',
+            'version' => '1.36-1',
+            'name' => 'libnet-ssleay-perl',
+            'update' => 'libnet-ssleay-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Not Erik\'s Windowing Toolkit - text mode windowing with slang',
+            'version' => '0.52.11-1',
+            'name' => 'libnewt0.52',
+            'update' => 'libnewt0.52'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Netfilter netlink library',
+            'version' => '1.0.0-1',
+            'name' => 'libnfnetlink0',
+            'update' => 'libnfnetlink0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'library for dealing with netlink sockets',
+            'version' => '1.1-6',
+            'name' => 'libnl1',
+            'update' => 'libnl1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Ogg bitstream library',
+            'version' => '1.2.0~dfsg-1',
+            'name' => 'libogg0',
+            'update' => 'libogg0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Oniguruma regular expressions library',
+            'version' => '5.9.1-1',
+            'name' => 'libonig2',
+            'update' => 'libonig2'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'Software implementation of the OpenAL API (shared library)',
+            'version' => '1.12.854-2',
+            'name' => 'libopenal1',
+            'update' => 'libopenal1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Adaptive Multi Rate speech codec - shared library',
+            'version' => '0.1.2-1',
+            'name' => 'libopencore-amrnb0',
+            'update' => 'libopencore-amrnb0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Adaptive Multi-Rate - Wideband speech codec - shared library',
+            'version' => '0.1.2-1',
+            'name' => 'libopencore-amrwb0',
+            'update' => 'libopencore-amrwb0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'JPEG 2000 image compression/decompression library',
+            'version' => '1.3+dfsg-4',
+            'name' => 'libopenjpeg2',
+            'update' => 'libopenjpeg2'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'automated option processing library based on autogen',
+            'version' => '5.10-1.1',
+            'name' => 'libopts25',
+            'update' => 'libopts25'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'Library of Optimized Inner Loops Runtime Compiler',
+            'version' => '0.4.6-2',
+            'name' => 'liborc-0.4-0',
+            'update' => 'liborc-0.4-0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'ConsoleKit PAM module',
+            'version' => '0.4.1-4',
+            'name' => 'libpam-ck-connector',
+            'update' => 'libpam-ck-connector'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Pluggable Authentication Modules for PAM',
+            'version' => '1.1.1-6.1',
+            'name' => 'libpam-modules',
+            'update' => 'libpam-modules'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Runtime support for the PAM library',
+            'version' => '1.1.1-6.1',
+            'name' => 'libpam-runtime',
+            'update' => 'libpam-runtime'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Pluggable Authentication Modules library',
+            'version' => '1.1.1-6.1',
+            'name' => 'libpam0g',
+            'update' => 'libpam0g'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'system interface for user-level packet capture',
+            'version' => '1.1.1-2',
+            'name' => 'libpcap0.8',
+            'update' => 'libpcap0.8'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'Linux PCI Utilities (shared library)',
+            'version' => '3.1.7-6',
+            'name' => 'libpci3',
+            'update' => 'libpci3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Generic PCI access library for X',
+            'version' => '0.12.0-1',
+            'name' => 'libpciaccess0',
+            'update' => 'libpciaccess0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl 5 Compatible Regular Expression Library - runtime files',
+            'version' => '8.02-1.1',
+            'name' => 'libpcre3',
+            'update' => 'libpcre3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Middleware to access a smart card using PC/SC (library)',
+            'version' => '1.5.5-4',
+            'name' => 'libpcsclite1',
+            'update' => 'libpcsclite1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'library that simplifies the interaction with PKCS#11',
+            'version' => '1.07-1',
+            'name' => 'libpkcs11-helper1',
+            'update' => 'libpkcs11-helper1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl extensions for writing PlRPC servers and clients',
+            'version' => '0.2020-2',
+            'name' => 'libplrpc-perl',
+            'update' => 'libplrpc-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'PNG library - runtime',
+            'version' => '1.2.44-1',
+            'name' => 'libpng12-0',
+            'update' => 'libpng12-0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'PolicyKit Authorization API',
+            'version' => '0.96-4',
+            'name' => 'libpolkit-gobject-1-0',
+            'update' => 'libpolkit-gobject-1-0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'lib for parsing cmdline parameters',
+            'version' => '1.16-1',
+            'name' => 'libpopt0',
+            'update' => 'libpopt0'
+          },
+          {
+            'epoch' => '4',
+            'system' => 'apt',
+            'desc' => 'ffmpeg video postprocessing library',
+            'version' => '0.5.2-6',
+            'name' => 'libpostproc51',
+            'update' => 'libpostproc51'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'PulseAudio client libraries',
+            'version' => '0.9.21-3+squeeze1',
+            'name' => 'libpulse0',
+            'update' => 'libpulse0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'QDBM Database Libraries [runtime]',
+            'version' => '1.8.77-4',
+            'name' => 'libqdbm14',
+            'update' => 'libqdbm14'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU readline and history libraries, run-time libraries',
+            'version' => '6.1-3',
+            'name' => 'libreadline6',
+            'update' => 'libreadline6'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Assemble multiple Regular Expressions into a single RE',
+            'version' => '0.34-3',
+            'name' => 'libregexp-assemble-perl',
+            'update' => 'libregexp-assemble-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Cyrus SASL - authentication abstraction library',
+            'version' => '2.1.23.dfsg1-7',
+            'name' => 'libsasl2-2',
+            'update' => 'libsasl2-2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Cyrus SASL - pluggable authentication modules',
+            'version' => '2.1.23.dfsg1-7',
+            'name' => 'libsasl2-modules',
+            'update' => 'libsasl2-modules'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'library for encoding/decoding of Dirac video streams',
+            'version' => '1.0.9-2',
+            'name' => 'libschroedinger-1.0-0',
+            'update' => 'libschroedinger-1.0-0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Simple DirectMedia Layer',
+            'version' => '1.2.14-6.1',
+            'name' => 'libsdl1.2debian',
+            'update' => 'libsdl1.2debian'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Simple DirectMedia Layer (with X11 and ALSA options)',
+            'version' => '1.2.14-6.1',
+            'name' => 'libsdl1.2debian-alsa',
+            'update' => 'libsdl1.2debian-alsa'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'SELinux runtime shared libraries',
+            'version' => '2.0.96-1',
+            'name' => 'libselinux1',
+            'update' => 'libselinux1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'SELinux library for manipulating binary security policies',
+            'version' => '2.0.41-1',
+            'name' => 'libsepol1',
+            'update' => 'libsepol1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'type-safe Signal Framework for C++ - runtime',
+            'version' => '2.2.4.2-1',
+            'name' => 'libsigc++-2.0-0c2a',
+            'update' => 'libsigc++-2.0-0c2a'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The S-Lang programming library - runtime version',
+            'version' => '2.2.2-4',
+            'name' => 'libslang2',
+            'update' => 'libslang2'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 Session Management library',
+            'version' => '1.1.1-1',
+            'name' => 'libsm6',
+            'update' => 'libsm6'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'shared library for communication with SMB/CIFS servers',
+            'version' => '3.5.6~dfsg-3squeeze4',
+            'name' => 'libsmbclient',
+            'update' => 'libsmbclient'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Library for reading/writing audio files',
+            'version' => '1.0.21-3',
+            'name' => 'libsndfile1',
+            'update' => 'libsndfile1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'SoX alsa format I/O library',
+            'version' => '14.3.1-1',
+            'name' => 'libsox-fmt-alsa',
+            'update' => 'libsox-fmt-alsa'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Minimal set of SoX format libraries',
+            'version' => '14.3.1-1',
+            'name' => 'libsox-fmt-base',
+            'update' => 'libsox-fmt-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'SoX library of audio effects and processing',
+            'version' => '14.3.1-1',
+            'name' => 'libsox1b',
+            'update' => 'libsox1b'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Speex codec runtime library',
+            'version' => '1.2~rc1-1',
+            'name' => 'libspeex1',
+            'update' => 'libspeex1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'SQLite 3 shared library',
+            'version' => '3.7.3-1',
+            'name' => 'libsqlite3-0',
+            'update' => 'libsqlite3-0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'command-line interface parsing library',
+            'version' => '1.41.12-4stable1',
+            'name' => 'libss2',
+            'update' => 'libss2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'SSH2 client-side library',
+            'version' => '1.2.6-1',
+            'name' => 'libssh2-1',
+            'update' => 'libssh2-1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'SSL shared libraries',
+            'version' => '0.9.8o-4squeeze1',
+            'name' => 'libssl0.9.8',
+            'update' => 'libssl0.9.8'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GNU Standard C++ Library v3',
+            'version' => '4.4.5-8',
+            'name' => 'libstdc++6',
+            'update' => 'libstdc++6'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GNU Standard C++ Library v3 (development files)',
+            'version' => '4.4.5-8',
+            'name' => 'libstdc++6-4.4-dev',
+            'update' => 'libstdc++6-4.4-dev'
+          },
+          {
+            'epoch' => '4',
+            'system' => 'apt',
+            'desc' => 'ffmpeg video scaling library',
+            'version' => '0.5.2-6',
+            'name' => 'libswscale0',
+            'update' => 'libswscale0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'interface library to sysfs',
+            'version' => '2.1.0+repack-1',
+            'name' => 'libsysfs2',
+            'update' => 'libsysfs2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Type 1 font rasterizer library - runtime',
+            'version' => '5.1.2-3',
+            'name' => 'libt1-5',
+            'update' => 'libt1-5'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'hierarchical pool based memory allocator',
+            'version' => '2.0.1-1',
+            'name' => 'libtalloc2',
+            'update' => 'libtalloc2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Manage ASN.1 structures (runtime)',
+            'version' => '2.7-1',
+            'name' => 'libtasn1-3',
+            'update' => 'libtasn1-3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'A perl module for simple terminal control',
+            'version' => '2.30-4',
+            'name' => 'libterm-readkey-perl',
+            'update' => 'libterm-readkey-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Perl implementation of Readline libraries',
+            'version' => '1.0303-1',
+            'name' => 'libterm-readline-perl-perl',
+            'update' => 'libterm-readline-perl-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'get display widths of characters on the terminal',
+            'version' => '0.04-6',
+            'name' => 'libtext-charwidth-perl',
+            'update' => 'libtext-charwidth-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'converts between character sets in Perl',
+            'version' => '1.7-2',
+            'name' => 'libtext-iconv-perl',
+            'update' => 'libtext-iconv-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'internationalized substitute of Text::Wrap',
+            'version' => '0.06-7',
+            'name' => 'libtext-wrapi18n-perl',
+            'update' => 'libtext-wrapi18n-perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Theora Video Compression Codec',
+            'version' => '1.1.1+dfsg.1-3',
+            'name' => 'libtheora0',
+            'update' => 'libtheora0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'collection of modules to manipulate date/time information',
+            'version' => '1.2000-1',
+            'name' => 'libtimedate-perl',
+            'update' => 'libtimedate-perl'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'tonezone library (runtime)',
+            'version' => '2.2.1.1-1',
+            'name' => 'libtonezone2.0',
+            'update' => 'libtonezone2.0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'touch screen library',
+            'version' => '1.0-7',
+            'name' => 'libts-0.0-0',
+            'update' => 'libts-0.0-0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'libudev shared library',
+            'version' => '164-3',
+            'name' => 'libudev0',
+            'update' => 'libudev0'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'userspace USB programming library',
+            'version' => '0.1.12-16',
+            'name' => 'libusb-0.1-4',
+            'update' => 'libusb-0.1-4'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Universally Unique ID library',
+            'version' => '2.17.2-9',
+            'name' => 'libuuid1',
+            'update' => 'libuuid1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Vorbis General Audio Compression Codec (Decoder library)',
+            'version' => '1.3.1-1+squeeze1',
+            'name' => 'libvorbis0a',
+            'update' => 'libvorbis0a'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Vorbis General Audio Compression Codec (Encoder library)',
+            'version' => '1.3.1-1+squeeze1',
+            'name' => 'libvorbisenc2',
+            'update' => 'libvorbisenc2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Vorbis General Audio Compression Codec (High Level API)',
+            'version' => '1.3.1-1+squeeze1',
+            'name' => 'libvorbisfile3',
+            'update' => 'libvorbisfile3'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'an audio codec (lossy and lossless) - library',
+            'version' => '4.60.1-1',
+            'name' => 'libwavpack1',
+            'update' => 'libwavpack1'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'Samba winbind client library',
+            'version' => '3.5.6~dfsg-3squeeze4',
+            'name' => 'libwbclient0',
+            'update' => 'libwbclient0'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Wietse Venema\'s TCP wrappers library',
+            'version' => '7.6.q-19',
+            'name' => 'libwrap0',
+            'update' => 'libwrap0'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 client-side library',
+            'version' => '1.3.3-4',
+            'name' => 'libx11-6',
+            'update' => 'libx11-6'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 client-side library',
+            'version' => '1.3.3-4',
+            'name' => 'libx11-data',
+            'update' => 'libx11-data'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Search engine library',
+            'version' => '1.2.3-2',
+            'name' => 'libxapian22',
+            'update' => 'libxapian22'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'X11 authorisation library',
+            'version' => '1.0.6-1',
+            'name' => 'libxau6',
+            'update' => 'libxau6'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'X C Binding',
+            'version' => '1.6-1',
+            'name' => 'libxcb1',
+            'update' => 'libxcb1'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'X11 damaged region extension library',
+            'version' => '1.1.3-1',
+            'name' => 'libxdamage1',
+            'update' => 'libxdamage1'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'X11 Display Manager Control Protocol library',
+            'version' => '1.0.3-2',
+            'name' => 'libxdmcp6',
+            'update' => 'libxdmcp6'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 miscellaneous extension library',
+            'version' => '1.1.2-1',
+            'name' => 'libxext6',
+            'update' => 'libxext6'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'X11 miscellaneous \'fixes\' extension library',
+            'version' => '4.0.5-1',
+            'name' => 'libxfixes3',
+            'update' => 'libxfixes3'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 Input extension library',
+            'version' => '1.3-6',
+            'name' => 'libxi6',
+            'update' => 'libxi6'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 Xinerama extension library',
+            'version' => '1.1-3',
+            'name' => 'libxinerama1',
+            'update' => 'libxinerama1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNOME XML library',
+            'version' => '2.7.8.dfsg-2+squeeze3',
+            'name' => 'libxml2',
+            'update' => 'libxml2'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Development files for the GNOME XML library',
+            'version' => '2.7.8.dfsg-2+squeeze3',
+            'name' => 'libxml2-dev',
+            'update' => 'libxml2-dev'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 miscellaneous micro-utility library',
+            'version' => '1.0.5-2',
+            'name' => 'libxmuu1',
+            'update' => 'libxmuu1'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'X11 pixmap library',
+            'version' => '3.5.8-1',
+            'name' => 'libxpm4',
+            'update' => 'libxpm4'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'X11 toolkit intrinsics library',
+            'version' => '1.0.7-1',
+            'name' => 'libxt6',
+            'update' => 'libxt6'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 Testing -- Record extension library',
+            'version' => '1.1.0-3',
+            'name' => 'libxtst6',
+            'update' => 'libxtst6'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 Video extension library',
+            'version' => '1.0.5-1',
+            'name' => 'libxv1',
+            'update' => 'libxv1'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 Video extension library',
+            'version' => '1.0.5-1',
+            'name' => 'libxvmc1',
+            'update' => 'libxvmc1'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'X11 Direct Graphics Access extension library',
+            'version' => '1.1.1-2',
+            'name' => 'libxxf86dga1',
+            'update' => 'libxxf86dga1'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'X11 XFree86 video mode extension library',
+            'version' => '1.1.0-2',
+            'name' => 'libxxf86vm1',
+            'update' => 'libxxf86vm1'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Linux support headers for userspace development',
+            'version' => '2.6.32-35',
+            'name' => 'linux-libc-dev',
+            'update' => 'linux-libc-dev'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'base package for ALSA and OSS sound systems',
+            'version' => '1.0.23+dfsg-2',
+            'name' => 'linux-sound-base',
+            'update' => 'linux-sound-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Embedded GNU C Library: National Language (locale) data [support]',
+            'version' => '2.11.2-10',
+            'name' => 'locales',
+            'update' => 'locales'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Programs for locking and unlocking files and mailboxes',
+            'version' => '0.1.15',
+            'name' => 'lockfile-progs',
+            'update' => 'lockfile-progs'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'system login tools',
+            'version' => '4.1.4.2+svn3283-2+squeeze1',
+            'name' => 'login',
+            'update' => 'login'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Log rotation utility',
+            'version' => '3.7.8-6',
+            'name' => 'logrotate',
+            'update' => 'logrotate'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Linux Standard Base 3.2 init script functionality',
+            'version' => '3.2-23.2squeeze1',
+            'name' => 'lsb-base',
+            'update' => 'lsb-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'List open files',
+            'version' => '4.81.dfsg.1-1',
+            'name' => 'lsof',
+            'update' => 'lsof'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Compression method of 7z format in 7-Zip program',
+            'version' => '4.43-14',
+            'name' => 'lzma',
+            'update' => 'lzma'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'An utility for Directing compilation.',
+            'version' => '3.81-8',
+            'name' => 'make',
+            'update' => 'make'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'creates device files in /dev',
+            'version' => '2.3.1-89',
+            'name' => 'makedev',
+            'update' => 'makedev'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'on-line manual pager',
+            'version' => '2.5.7-8',
+            'name' => 'man-db',
+            'update' => 'man-db'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Manual pages about using a GNU/Linux system',
+            'version' => '3.27-1',
+            'name' => 'manpages',
+            'update' => 'manpages'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Manual pages about using GNU/Linux for development',
+            'version' => '3.27-1',
+            'name' => 'manpages-dev',
+            'update' => 'manpages-dev'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'a pattern scanning and text processing language',
+            'version' => '1.3.3-15',
+            'name' => 'mawk',
+            'update' => 'mawk'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'MIME files \'mime.types\' & \'mailcap\', and support programs',
+            'version' => '3.48-1',
+            'name' => 'mime-support',
+            'update' => 'mime-support'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'coreutils mktemp transitional package',
+            'version' => '8.5-1',
+            'name' => 'mktemp',
+            'update' => 'mktemp'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'tools for managing Linux kernel modules',
+            'version' => '3.12-1',
+            'name' => 'module-init-tools',
+            'update' => 'module-init-tools'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Tools for mounting and manipulating filesystems',
+            'version' => '2.17.2-9',
+            'name' => 'mount',
+            'update' => 'mount'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'movie player for Unix-like systems',
+            'version' => '1.0~rc3++final.dfsg1-1',
+            'name' => 'mplayer',
+            'update' => 'mplayer'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Memory Technology Device Utilities',
+            'version' => '20090606-1',
+            'name' => 'mtd-utils',
+            'update' => 'mtd-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'small, friendly text editor inspired by Pico',
+            'version' => '2.2.4-1',
+            'name' => 'nano',
+            'update' => 'nano'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'basic terminal type definitions',
+            'version' => '5.7+20100313-5',
+            'name' => 'ncurses-base',
+            'update' => 'ncurses-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'terminal-related programs and man pages',
+            'version' => '5.7+20100313-5',
+            'name' => 'ncurses-bin',
+            'update' => 'ncurses-bin'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The NET-3 networking toolkit',
+            'version' => '1.60-23',
+            'name' => 'net-tools',
+            'update' => 'net-tools'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Basic TCP/IP networking system',
+            'version' => '4.45',
+            'name' => 'netbase',
+            'update' => 'netbase'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'TCP/IP swiss army knife',
+            'version' => '1.10-38',
+            'name' => 'netcat-traditional',
+            'update' => 'netcat-traditional'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'Network Time Protocol daemon and utility programs',
+            'version' => '4.2.6.p2+dfsg-1+b1',
+            'name' => 'ntp',
+            'update' => 'ntp'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The OpenBSD Internet Superserver',
+            'version' => '0.20080125-6',
+            'name' => 'openbsd-inetd',
+            'update' => 'openbsd-inetd'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'list of default blacklisted OpenSSH RSA and DSA keys',
+            'version' => '0.4.1',
+            'name' => 'openssh-blacklist',
+            'update' => 'openssh-blacklist'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'list of non-default blacklisted OpenSSH RSA and DSA keys',
+            'version' => '0.4.1',
+            'name' => 'openssh-blacklist-extra',
+            'update' => 'openssh-blacklist-extra'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'secure shell (SSH) client, for secure access to remote machines',
+            'version' => '5.5p1-6',
+            'name' => 'openssh-client',
+            'update' => 'openssh-client'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'secure shell (SSH) server, for secure access from remote machines',
+            'version' => '5.5p1-6',
+            'name' => 'openssh-server',
+            'update' => 'openssh-server'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Secure Socket Layer (SSL) binary and related cryptographic tools',
+            'version' => '0.9.8o-4squeeze14',
+            'name' => 'openssl',
+            'update' => 'openssl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'list of blacklisted OpenSSL RSA keys',
+            'version' => '0.5-2',
+            'name' => 'openssl-blacklist',
+            'update' => 'openssl-blacklist'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'virtual private network daemon',
+            'version' => '2.1.3-2+squeeze1',
+            'name' => 'openvpn',
+            'update' => 'openvpn'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'list of blacklisted OpenVPN RSA shared keys',
+            'version' => '0.4',
+            'name' => 'openvpn-blacklist',
+            'update' => 'openvpn-blacklist'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'change and administer password and group data',
+            'version' => '4.1.4.2+svn3283-2+squeeze1',
+            'name' => 'passwd',
+            'update' => 'passwd'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Apply a diff file to an original',
+            'version' => '2.6-2',
+            'name' => 'patch',
+            'update' => 'patch'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'Linux PCI Utilities',
+            'version' => '3.1.7-6',
+            'name' => 'pciutils',
+            'update' => 'pciutils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Larry Wall\'s Practical Extraction and Report Language',
+            'version' => '5.10.1-17squeeze3',
+            'name' => 'perl',
+            'update' => 'perl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'minimal Perl system',
+            'version' => '5.10.1-17squeeze3',
+            'name' => 'perl-base',
+            'update' => 'perl-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Core Perl modules',
+            'version' => '5.10.1-17squeeze3',
+            'name' => 'perl-modules',
+            'update' => 'perl-modules'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'server-side, HTML-embedded scripting language (CGI binary)',
+            'version' => '5.3.3-7+squeeze14',
+            'name' => 'php5-cgi',
+            'update' => 'php5-cgi'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'command-line interpreter for the php5 scripting language',
+            'version' => '5.3.3-7+squeeze14',
+            'name' => 'php5-cli',
+            'update' => 'php5-cli'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Common files for packages built from the php5 source',
+            'version' => '5.3.3-7+squeeze14',
+            'name' => 'php5-common',
+            'update' => 'php5-common'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GD module for php5',
+            'version' => '5.3.3-7+squeeze14',
+            'name' => 'php5-gd',
+            'update' => 'php5-gd'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'advanced protection module for php5',
+            'version' => '0.9.32.1-1',
+            'name' => 'php5-suhosin',
+            'update' => 'php5-suhosin'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'utilities and scripts for power management',
+            'version' => '1.3.0-3',
+            'name' => 'pm-utils',
+            'update' => 'pm-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'mount removable devices as normal user',
+            'version' => '0.9.23-1',
+            'name' => 'pmount',
+            'update' => 'pmount'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'RPC port mapper',
+            'version' => '6.0.0-2',
+            'name' => 'portmap',
+            'update' => 'portmap'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Common utils and configs for power management',
+            'version' => '1.31',
+            'name' => 'powermgmt-base',
+            'update' => 'powermgmt-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Point-to-Point Protocol (PPP) - daemon',
+            'version' => '2.4.5-4',
+            'name' => 'ppp',
+            'update' => 'ppp'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Print IP address on a given range',
+            'version' => '0.9.7-1',
+            'name' => 'prips',
+            'update' => 'prips'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => '/proc file system utilities',
+            'version' => '3.2.8-9',
+            'name' => 'procps',
+            'update' => 'procps'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'utilities that use the proc file system',
+            'version' => '22.11-1',
+            'name' => 'psmisc',
+            'update' => 'psmisc'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'interactive high-level object-oriented language (default version)',
+            'version' => '2.6.6-3+squeeze6',
+            'name' => 'python',
+            'update' => 'python'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'minimal subset of the Python language (default version)',
+            'version' => '2.6.6-3+squeeze6',
+            'name' => 'python-minimal',
+            'update' => 'python-minimal'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'An interactive high-level object-oriented language (version 2.6)',
+            'version' => '2.6.6-8+b1',
+            'name' => 'python2.6',
+            'update' => 'python2.6'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'A minimal subset of the Python language (version 2.6)',
+            'version' => '2.6.6-8+b1',
+            'name' => 'python2.6-minimal',
+            'update' => 'python2.6-minimal'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'BGP/OSPF/RIP routing daemon',
+            'version' => '0.99.20.1-0+squeeze2',
+            'name' => 'quagga',
+            'update' => 'quagga'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'utility to control ATI Radeon backlight functions on laptops',
+            'version' => '1.6.1-1',
+            'name' => 'radeontool',
+            'update' => 'radeontool'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU readline and history libraries, common files',
+            'version' => '6.1-3',
+            'name' => 'readline-common',
+            'update' => 'readline-common'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'fast remote file copy program (like rcp)',
+            'version' => '3.0.7-2',
+            'name' => 'rsync',
+            'update' => 'rsync'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'enhanced multi-threaded syslogd',
+            'version' => '4.6.4-2',
+            'name' => 'rsyslog',
+            'update' => 'rsyslog'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'SMB/CIFS file, print, and login server for Unix',
+            'version' => '3.5.6~dfsg-3squeeze4',
+            'name' => 'samba',
+            'update' => 'samba'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'common files used by both the Samba server and client',
+            'version' => '3.5.6~dfsg-3squeeze4',
+            'name' => 'samba-common',
+            'update' => 'samba-common'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'common files used by both the Samba server and client',
+            'version' => '3.5.6~dfsg-3squeeze4',
+            'name' => 'samba-common-bin',
+            'update' => 'samba-common-bin'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The GNU sed stream editor',
+            'version' => '4.2.1-7',
+            'name' => 'sed',
+            'update' => 'sed'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Utilities for sensible alternative selection',
+            'version' => '0.0.4',
+            'name' => 'sensible-utils',
+            'update' => 'sensible-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'SGML infrastructure and SGML catalog file support',
+            'version' => '1.26+nmu1',
+            'name' => 'sgml-base',
+            'update' => 'sgml-base'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'FreeDesktop.org shared MIME database and spec',
+            'version' => '0.71-4',
+            'name' => 'shared-mime-info',
+            'update' => 'shared-mime-info'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Shoreline Firewall, netfilter configurator',
+            'version' => '4.4.11.6-3+squeeze1',
+            'name' => 'shorewall',
+            'update' => 'shorewall'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Swiss army knife of sound processing',
+            'version' => '14.3.1-1',
+            'name' => 'sox',
+            'update' => 'sox'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'A fastcgi process spawner',
+            'version' => '1.6.3-1',
+            'name' => 'spawn-fcgi',
+            'update' => 'spawn-fcgi'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'simple debconf wrapper for OpenSSL',
+            'version' => '1.0.28',
+            'name' => 'ssl-cert',
+            'update' => 'ssl-cert'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'extremely simple MTA to get mail off the system to a mail hub',
+            'version' => '2.64-4',
+            'name' => 'ssmtp',
+            'update' => 'ssmtp'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'A system call tracer',
+            'version' => '4.5.20-2',
+            'name' => 'strace',
+            'update' => 'strace'
+          },
+          {
+            'epoch' => '3',
+            'system' => 'apt',
+            'desc' => 'Universal SSL tunnel for network daemons',
+            'version' => '4.29-1',
+            'name' => 'stunnel4',
+            'update' => 'stunnel4'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Provide limited super user privileges to specific users',
+            'version' => '1.7.4p4-2.squeeze.2',
+            'name' => 'sudo',
+            'update' => 'sudo'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'System-V-like runlevel change mechanism',
+            'version' => '2.88dsf-13.1',
+            'name' => 'sysv-rc',
+            'update' => 'sysv-rc'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'System-V-like init utilities',
+            'version' => '2.88dsf-13.1',
+            'name' => 'sysvinit',
+            'update' => 'sysvinit'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'System-V-like utilities',
+            'version' => '2.88dsf-13.1',
+            'name' => 'sysvinit-utils',
+            'update' => 'sysvinit-utils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'GNU version of the tar archiving utility',
+            'version' => '1.23-3',
+            'name' => 'tar',
+            'update' => 'tar'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Tool for selecting tasks for installation on Debian systems',
+            'version' => '2.88',
+            'name' => 'tasksel',
+            'update' => 'tasksel'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Official tasks used for installation of Debian systems',
+            'version' => '2.88',
+            'name' => 'tasksel-data',
+            'update' => 'tasksel-data'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The Tool Command Language (default version) - run-time files',
+            'version' => '8.4.16-2',
+            'name' => 'tcl',
+            'update' => 'tcl'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Tcl (the Tool Command Language) v8.4 - run-time files',
+            'version' => '8.4.19-4',
+            'name' => 'tcl8.4',
+            'update' => 'tcl8.4'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Wietse Venema\'s TCP wrapper utilities',
+            'version' => '7.6.q-19',
+            'name' => 'tcpd',
+            'update' => 'tcpd'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'The telnet client',
+            'version' => '0.17-36',
+            'name' => 'telnet',
+            'update' => 'telnet'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'Traces the route taken by packets over an IPv4/IPv6 network',
+            'version' => '2.0.15-1',
+            'name' => 'traceroute',
+            'update' => 'traceroute'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'touch screen library common files',
+            'version' => '1.0-7',
+            'name' => 'tsconf',
+            'update' => 'tsconf'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Metapackage to pull in ttf-dejavu-core and ttf-dejavu-extra',
+            'version' => '2.31-1',
+            'name' => 'ttf-dejavu',
+            'update' => 'ttf-dejavu'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Vera font family derivate with additional characters',
+            'version' => '2.31-1',
+            'name' => 'ttf-dejavu-core',
+            'update' => 'ttf-dejavu-core'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Vera font family derivate with additional characters',
+            'version' => '2.31-1',
+            'name' => 'ttf-dejavu-extra',
+            'update' => 'ttf-dejavu-extra'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'time zone and daylight-saving time data',
+            'version' => '2011d-0squeeze1',
+            'name' => 'tzdata',
+            'update' => 'tzdata'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Update Configuration File: preserve user changes to config files.',
+            'version' => '3.0025+nmu1',
+            'name' => 'ucf',
+            'update' => 'ucf'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => '/dev/ and hotplug management daemon',
+            'version' => '164-3',
+            'name' => 'udev',
+            'update' => 'udev'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'inetd configuration file updater',
+            'version' => '4.38+nmu1',
+            'name' => 'update-inetd',
+            'update' => 'update-inetd'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'mode switching tool for controlling "flip flop" USB devices',
+            'version' => '1.1.4-2',
+            'name' => 'usb-modeswitch',
+            'update' => 'usb-modeswitch'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'mode switching data for usb-modeswitch',
+            'version' => '20100826-1+squeeze0',
+            'name' => 'usb-modeswitch-data',
+            'update' => 'usb-modeswitch-data'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'automatically mount and unmount USB mass storage devices',
+            'version' => '0.0.21',
+            'name' => 'usbmount',
+            'update' => 'usbmount'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Linux USB utilities',
+            'version' => '0.87-5',
+            'name' => 'usbutils',
+            'update' => 'usbutils'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Miscellaneous system utilities',
+            'version' => '2.17.2-9',
+            'name' => 'util-linux',
+            'update' => 'util-linux'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'Vi IMproved - Common files',
+            'version' => '7.2.445+hg~cb94c42c0e1a-1',
+            'name' => 'vim-common',
+            'update' => 'vim-common'
+          },
+          {
+            'epoch' => '2',
+            'system' => 'apt',
+            'desc' => 'Vi IMproved - enhanced vi editor - compact version',
+            'version' => '7.2.445+hg~cb94c42c0e1a-1',
+            'name' => 'vim-tiny',
+            'update' => 'vim-tiny'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'web-based administration interface for Unix systems',
+            'version' => '1.590',
+            'name' => 'webmin',
+            'update' => 'webmin'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'retrieves files from the web',
+            'version' => '1.12-2.1',
+            'name' => 'wget',
+            'update' => 'wget'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Displays user-friendly dialog boxes from shell scripts',
+            'version' => '0.52.11-1',
+            'name' => 'whiptail',
+            'update' => 'whiptail'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'Tools for manipulating Linux Wireless Extensions',
+            'version' => '30~pre9-5',
+            'name' => 'wireless-tools',
+            'update' => 'wireless-tools'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'client support for WPA and WPA2 (IEEE 802.11i)',
+            'version' => '0.6.10-2.1',
+            'name' => 'wpasupplicant',
+            'update' => 'wpasupplicant'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'X Window System (X.Org) infrastructure',
+            'version' => '7.5+8',
+            'name' => 'x11-common',
+            'update' => 'x11-common'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'X authentication utility',
+            'version' => '1.0.4-1',
+            'name' => 'xauth',
+            'update' => 'xauth'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'X Keyboard Extension (XKB) configuration data',
+            'version' => '1.8-2',
+            'name' => 'xkb-data',
+            'update' => 'xkb-data'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'XML infrastructure and XML catalog file support',
+            'version' => '0.13',
+            'name' => 'xml-core',
+            'update' => 'xml-core'
+          },
+          {
+            'epoch' => undef,
+            'system' => 'apt',
+            'desc' => 'XZ-format compression utilities',
+            'version' => '5.0.0-2',
+            'name' => 'xz-utils',
+            'update' => 'xz-utils'
+          },
+          {
+            'epoch' => '1',
+            'system' => 'apt',
+            'desc' => 'compression library - runtime',
+            'version' => '1.2.3.4.dfsg-3',
+            'name' => 'zlib1g',
+            'update' => 'zlib1g'
+          }
+        ];

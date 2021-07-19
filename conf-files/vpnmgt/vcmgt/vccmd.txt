@@ -1,0 +1,6 @@
+
+AccountUsernameSet VC /USERNAME:vcdemo2
+AccountPasswordSet VC /PASSWORD:vcdemo2 /TYPE:standard
+AccountSet VC /SERVER:vpnvcvoip1.spantreeng.com:443 /HUB:VoIPConnect
+AccountCompressEnable VC
+AccountEncryptEnable VC

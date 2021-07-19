@@ -1,0 +1,79 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2097154 (0x200002)
+        Signature Algorithm: md5WithRSAEncryption
+        Issuer: O=spantree technologies/emailAddress=security@spanboxng.com, L=lagos, ST=lagos, C=NG, CN=ca.spanboxng.com
+        Validity
+            Not Before: Nov 17 08:28:25 2012 GMT
+            Not After : Nov 15 08:28:25 2022 GMT
+        Subject: C=NG, ST=lagos, O=spantree technologies, OU=Unit, L=lagos, CN=kamoze/emailAddress=kamoze@spanboxng.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:cb:14:6c:f6:5b:05:79:c0:b0:b3:a4:ff:00:f9:
+                    0a:f1:48:92:e9:44:95:f5:3a:9e:97:7f:ab:79:ad:
+                    e9:d5:2c:73:6b:19:39:bd:b0:e6:be:f9:c9:92:6c:
+                    f8:fd:42:c4:6e:ef:7c:0a:53:e4:77:49:87:3a:5b:
+                    9b:75:c5:23:43:16:46:4d:79:44:b5:c9:67:77:c4:
+                    3a:14:61:70:35:90:50:d2:fc:0e:36:09:6e:dd:18:
+                    a4:d8:f9:ab:c4:c9:78:8a:3b:8e:f1:1e:f5:8d:65:
+                    ae:1b:43:70:fc:28:ee:fd:f5:81:88:62:58:3a:8e:
+                    c8:68:3a:66:11:7c:ff:3f:2f:15:7c:16:47:92:bd:
+                    ac:b5:c0:b7:74:79:3c:b4:80:f6:7c:53:45:8a:94:
+                    b0:14:71:c2:06:d1:b2:d9:41:e5:ff:a2:ab:1c:c2:
+                    13:fc:5f:07:e3:56:ae:32:01:79:f6:bb:c8:53:5b:
+                    3d:01:54:31:22:65:b1:02:73:d8:64:4a:53:5e:08:
+                    e1:62:8d:0c:1f:3e:88:f8:6e:13:9b:c3:5f:38:3b:
+                    7e:c0:64:a1:72:aa:d2:03:ab:51:f3:88:19:34:f2:
+                    15:37:c6:f0:bf:7a:c7:07:49:10:28:1a:8b:06:32:
+                    5f:6a:85:7c:1f:5b:a0:7c:de:d3:67:5b:7a:99:dd:
+                    ad:dd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                7B:24:89:9A:55:95:01:43:48:83:95:1C:12:66:E4:FF:0A:D0:74:C8
+            Netscape Cert Type: 
+                SSL Client, S/MIME, Object Signing
+    Signature Algorithm: md5WithRSAEncryption
+        1a:0f:6d:34:ed:96:52:e0:56:5f:ef:31:b2:00:6c:35:24:c6:
+        65:b1:79:5b:d2:b7:2e:3d:05:8b:1e:cf:2a:ed:7f:77:2e:f0:
+        11:bc:54:df:da:bb:08:62:bb:cd:fd:f0:8f:5a:17:93:91:2b:
+        42:a8:c2:54:47:03:95:66:1c:d8:ea:b6:ba:9f:6c:81:fc:58:
+        8e:09:4d:a9:2d:a1:b2:45:c3:8f:72:5e:23:95:7c:e6:12:3b:
+        13:d3:9d:4d:be:5e:a2:1a:f1:af:1e:82:9f:9c:7d:65:46:00:
+        40:ae:e7:15:03:0c:d2:7d:d2:90:70:b7:60:e8:88:e4:d0:ba:
+        7c:68:59:c8:c2:ec:58:67:ef:64:c8:ee:f0:ca:29:3b:e6:7a:
+        07:09:81:23:9b:e4:29:ec:77:65:a9:a6:dd:2e:23:06:bf:ab:
+        fb:c1:d1:53:f6:aa:6e:bd:33:f5:e9:d0:a5:c4:35:24:08:3e:
+        6c:75:72:db:2f:e9:01:be:b7:b4:27:c4:f0:2e:43:dc:28:89:
+        3b:0b:12:5d:c7:41:a2:4f:79:5b:18:c6:b9:8d:7d:72:6b:77:
+        e4:2c:8b:80:20:57:4d:93:c8:d1:41:97:7e:ac:74:f8:0d:cd:
+        03:f7:80:42:54:b0:93:5b:5c:ff:99:91:61:ff:2d:e6:5e:d8:
+        24:7f:24:43
+-----BEGIN CERTIFICATE-----
+MIID3zCCAsegAwIBAgIDIAACMA0GCSqGSIb3DQEBBAUAMIGPMR4wHAYDVQQKExVz
+cGFudHJlZSB0ZWNobm9sb2dpZXMxJTAjBgkqhkiG9w0BCQEWFnNlY3VyaXR5QHNw
+YW5ib3huZy5jb20xDjAMBgNVBAcTBWxhZ29zMQ4wDAYDVQQIEwVsYWdvczELMAkG
+A1UEBhMCTkcxGTAXBgNVBAMTEGNhLnNwYW5ib3huZy5jb20wHhcNMTIxMTE3MDgy
+ODI1WhcNMjIxMTE1MDgyODI1WjCBkjELMAkGA1UEBhMCTkcxDjAMBgNVBAgTBWxh
+Z29zMR4wHAYDVQQKExVzcGFudHJlZSB0ZWNobm9sb2dpZXMxDTALBgNVBAsTBFVu
+aXQxDjAMBgNVBAcTBWxhZ29zMQ8wDQYDVQQDEwZrYW1vemUxIzAhBgkqhkiG9w0B
+CQEWFGthbW96ZUBzcGFuYm94bmcuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAyxRs9lsFecCws6T/APkK8UiS6USV9Tqel3+rea3p1Sxzaxk5vbDm
+vvnJkmz4/ULEbu98ClPkd0mHOlubdcUjQxZGTXlEtclnd8Q6FGFwNZBQ0vwONglu
+3Rik2PmrxMl4ijuO8R71jWWuG0Nw/Cju/fWBiGJYOo7IaDpmEXz/Py8VfBZHkr2s
+tcC3dHk8tID2fFNFipSwFHHCBtGy2UHl/6KrHMIT/F8H41auMgF59rvIU1s9AVQx
+ImWxAnPYZEpTXgjhYo0MHz6I+G4Tm8NfODt+wGShcqrSA6tR84gZNPIVN8bwv3rH
+B0kQKBqLBjJfaoV8H1ugfN7TZ1t6md2t3QIDAQABoz8wPTAJBgNVHRMEAjAAMB0G
+A1UdDgQWBBR7JImaVZUBQ0iDlRwSZuT/CtB0yDARBglghkgBhvhCAQEEBAMCBLAw
+DQYJKoZIhvcNAQEEBQADggEBABoPbTTtllLgVl/vMbIAbDUkxmWxeVvSty49BYse
+zyrtf3cu8BG8VN/auwhiu8398I9aF5ORK0KowlRHA5VmHNjqtrqfbIH8WI4JTakt
+obJFw49yXiOVfOYSOxPTnU2+XqIa8a8egp+cfWVGAECu5xUDDNJ90pBwt2DoiOTQ
+unxoWcjC7Fhn72TI7vDKKTvmegcJgSOb5Cnsd2Wppt0uIwa/q/vB0VP2qm69M/Xp
+0KXENSQIPmx1ctsv6QG+t7QnxPAuQ9woiTsLEl3HQaJPeVsYxrmNfXJrd+Qsi4Ag
+V02TyNFBl36sdPgNzQP3gEJUsJNbXP+ZkWH/LeZe2CR/JEM=
+-----END CERTIFICATE-----

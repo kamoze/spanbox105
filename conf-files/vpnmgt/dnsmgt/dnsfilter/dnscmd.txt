@@ -1,0 +1,6 @@
+AccountSet DNS /SERVER:vpnsmevoip1.spantreeng.com:1194 /HUB:DNS
+AccountCompressEnable DNS
+AccountEncryptEnable DNS
+AccountUsernameSet DNS /USERNAME:dns1974001
+AccountStartupSet DNS
+AccountConnect DNS

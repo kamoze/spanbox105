@@ -1,0 +1,21 @@
+# Used by ifup(8) and ifdown(8). See the interfaces(5) manpage or
+# /usr/share/doc/ifupdown/examples for more information.
+auto lo  eth1 eth0 lo:1 uap0
+iface lo inet loopback
+
+iface uap0 inet static
+
+iface eth0 inet dhcp
+
+iface lo:1 inet static
+ address 1.1.1.1
+ netmask 255.255.255.255
+ network 1.1.1.1
+ broadcast 1.1.1.1
+
+iface eth1 inet static
+	address 192.168.111.1
+	netmask 255.255.255.0
+	broadcast 192.168.111.255
+	network 192.168.111.0
+	

@@ -1,0 +1,6 @@
+
+AccountUsernameSet WWW /USERNAME:wwwdemo1
+AccountPasswordSet WWW /PASSWORD:wwwdemo1 /TYPE:standard
+AccountSet WWW /SERVER:81.94.192.129:443 /HUB:Internet
+AccountCompressEnable WWW
+AccountEncryptEnable WWW

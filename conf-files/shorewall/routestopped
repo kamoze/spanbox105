@@ -1,0 +1,19 @@
+eth0	-	routeback,source,dest,critical
+ppp+	-	routeback,source,dest,critical
+tap+	-	routeback,source,dest,critical
+eth1	-	routeback,source,dest,critical
+uap0	-	routeback,source,dest,critical
+#
+# Shorewall version 4 - Routestopped File
+#
+# For information about entries in this file, type "man shorewall-routestopped"
+#
+# The manpage is also online at
+# http://www.shorewall.net/manpages/shorewall-routestopped.html
+#
+# See http://shorewall.net/starting_and_stopping_shorewall.htm for additional
+# information.
+#
+###############################################################################
+#INTERFACE	HOST(S)			OPTIONS		PROTO	DEST	SOURCE
+#								PORT(S)	PORT(S)

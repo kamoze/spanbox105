@@ -1,0 +1,10 @@
+base=/var/cache/bind
+version=3
+pidfile_config=/var/run/bind/run/named.pid /var/run/named.pid /var/run/named/named.pid /var/run/bind/run/named/named.pid
+zone_3=0.in-addr.arpa	5	master	*	/etc/bind/db.0
+zone_2=127.in-addr.arpa	4	master	*	/etc/bind/db.127
+zone_0=.	2	hint	*	/etc/bind/db.root
+pidfile=/var/run/named/named.pid
+zone_1=localhost	3	master	*	/etc/bind/db.local
+file_/etc/bind/named.conf.default-zones=1321475503
+zone_4=255.in-addr.arpa	6	master	*	/etc/bind/db.255

@@ -1,0 +1,7 @@
+/var/log/shorewall-init.log {
+    size 3k
+    rotate 3
+    compress
+    missingok
+    create 0640 root adm
+}

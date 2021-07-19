@@ -1,0 +1,17 @@
+#
+# Shorewall version 4 - Interfaces File
+#
+# For information about entries in this file, type "man shorewall-interfaces"
+#
+# The manpage is also online at
+# http://www.shorewall.net/manpages/shorewall-interfaces.html
+#
+###############################################################################
+#ZONE	INTERFACE	BROADCAST	OPTIONS
+in	eth1	detect
+in	uap0	detect
+out	tap+	detect	dhcp
+out	ppp+	detect	dhcp
+out	eth0	detect	dhcp
+out     tun+    detect  dhcp
+out     vpn+    detect  dhcp

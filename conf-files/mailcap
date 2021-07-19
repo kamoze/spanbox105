@@ -1,0 +1,64 @@
+###############################################################################
+#
+#  MIME types and programs that process those types
+#
+#  Much of this file is generated automatically by the program "update-mime".
+#  Please see the "update-mime" man page for more information.
+#
+#  Users can add their own rules if they wish by creating a ".mailcap"
+#  file in their home directory.  Entries included there will take
+#  precedence over those listed here.
+#
+###############################################################################
+
+
+###############################################################################
+#
+#  User section follows:  Any entries included in this section will take
+#  precedence over those created by "update-mime".  DO NOT CHANGE the
+#  "User Section Begins" and "User Section Ends" lines, or anything outside
+#  of this section!
+#
+
+# ----- User Section Begins ----- #
+# -----  User Section Ends  ----- #
+
+###############################################################################
+
+text/html; /usr/bin/sensible-browser '%s'; description=HTML Text; nametemplate=%s.html
+audio/basic; /usr/bin/esdplay '%s'
+audio/x-wav; /usr/bin/esdplay '%s'
+audio/x-aiff; /usr/bin/esdplay '%s'
+application/x-troff-man; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
+application/x-ogg; /usr/bin/mplayer '%s'; description="OggVorbis Audio"
+application/ogg; /usr/bin/mplayer '%s'; description="OggVorbis Audio"
+audio/mpeg; /usr/bin/mplayer '%s'; description="MPEG Audio Format"
+audio/x-mpegurl; /usr/bin/mplayer '%s'; description="Icecast Playlists"
+audio/x-ms-wax; /usr/bin/mplayer '%s'; description="Audio Format"
+audio/x-ms-wma; /usr/bin/mplayer '%s'; description="Audio Format"
+audio/x-pls; /usr/bin/mplayer '%s'; description="MP3 ShoutCast/IceCast Playlist"
+audio/x-scpls; /usr/bin/mplayer '%s'; description="Shoutcast Playlists"
+audio/x-wav; /usr/bin/mplayer '%s'; description="Waveform Microsoft Wave/RIFF"
+video/mpeg; /usr/bin/mplayer '%s'; description="MPEG Video Format"; test=test -n "$DISPLAY"
+video/quicktime; /usr/bin/mplayer '%s'; description="Apple Quicktime Video"; test=test -n "$DISPLAY"
+video/x-mpeg2; /usr/bin/mplayer '%s'; description="MPEG Video"; test=test -n "$DISPLAY"
+video/x-mpeg; /usr/bin/mplayer '%s'; description="MPEG 2 Video"; test=test -n "$DISPLAY"
+video/mpeg; /usr/bin/mplayer '%s'; description="MPEG 2 Video"; test=test -n "$DISPLAY"
+video/x-ms-afs; /usr/bin/mplayer '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-asf; /usr/bin/mplayer '%s'; description="MS ASF video"; test=test -n "$DISPLAY"
+video/x-msvideo; /usr/bin/mplayer '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wma; /usr/bin/mplayer '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wmv; /usr/bin/mplayer '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wmx; /usr/bin/mplayer '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+video/x-ms-wvx; /usr/bin/mplayer '%s'; description="Audio Video Interleave - Microsoft"; test=test -n "$DISPLAY"
+audio/basic; /usr/bin/play -t au '%s'
+audio/x-aiff; /usr/bin/play -t aiff '%s'
+audio/x-gsm; /usr/bin/play -t gsm '%s'
+audio/x-wav; /usr/bin/play -t wav '%s'
+application/x-tar; /bin/tar tvf -; print=/bin/tar tvf - | print text/plain:-; copiousoutput
+application/x-gtar; /bin/tar tvzf -; print=/bin/tar tvzf - | print text/plain:-; copiousoutput
+text/plain; more '%s'; needsterminal
+text/plain; view '%s'; edit=vim '%s'; compose=vim '%s'; needsterminal
+text/*; view '%s'; edit=vim '%s'; compose=vim '%s'; needsterminal
+text/*; more '%s'; needsterminal
+application/x-debian-package; /usr/lib/mime/debian-view '%s'; needsterminal; description=Debian GNU/Linux Package; nametemplate=%s.deb

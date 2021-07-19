@@ -1,0 +1,16 @@
+TARGETS = samba openvpn nginx quagga openbsd-inetd webmin stunnel4 vpnclient apache2 asterisk bluetooth exim4 isc-dhcp-server hal urandom lighttpd shorewall alsa-utils dnsmasq dahdi mysql fam sendsigs rsyslog umountnfs.sh hwclock.sh portmap networking ifupdown umountfs umountroot halt reboot
+dnsmasq: apache2 asterisk exim4
+dahdi: asterisk
+mysql: asterisk exim4
+fam: lighttpd
+sendsigs: nginx apache2 fam asterisk bluetooth exim4 lighttpd quagga mysql openbsd-inetd shorewall dnsmasq isc-dhcp-server samba stunnel4 alsa-utils vpnclient openvpn
+rsyslog: nginx apache2 sendsigs asterisk bluetooth exim4 lighttpd quagga mysql openbsd-inetd dnsmasq isc-dhcp-server stunnel4 vpnclient openvpn hal
+umountnfs.sh: nginx apache2 rsyslog fam asterisk bluetooth exim4 lighttpd quagga sendsigs mysql openbsd-inetd shorewall dnsmasq isc-dhcp-server samba stunnel4 alsa-utils vpnclient openvpn
+hwclock.sh: rsyslog mysql
+portmap: fam umountnfs.sh
+networking: nginx portmap apache2 asterisk umountnfs.sh exim4 lighttpd quagga mysql shorewall dnsmasq isc-dhcp-server samba webmin openvpn
+ifupdown: nginx portmap apache2 asterisk umountnfs.sh exim4 lighttpd quagga networking mysql shorewall dnsmasq isc-dhcp-server samba webmin openvpn
+umountfs: hwclock.sh nginx portmap apache2 ifupdown fam asterisk umountnfs.sh bluetooth exim4 lighttpd quagga networking mysql urandom openbsd-inetd shorewall dnsmasq isc-dhcp-server samba stunnel4 alsa-utils vpnclient openvpn
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

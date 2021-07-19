@@ -1,0 +1,10 @@
+tmpfs /lib/init/rw tmpfs rw,nosuid,mode=0755 0 0
+proc /proc proc rw,noexec,nosuid,nodev 0 0
+sysfs /sys sysfs rw,noexec,nosuid,nodev 0 0
+udev /dev tmpfs rw,mode=0755 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
+devpts /dev/pts devpts rw,noexec,nosuid,gid=5,mode=620 0 0
+rootfs / rootfs rw 0 0
+/dev/sda3 /media/usb0 vfat rw,noexec,nodev,sync,noatime,nodiratime,fmask=0022,dmask=0022,codepage=cp437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
+/dev/sda1 /media/usb1 ext2 rw,noexec,nodev,sync,noatime,nodiratime,errors=continue 0 0
+tmpfs /var/cache/apt tmpfs rw,noexec,nosuid 0 0

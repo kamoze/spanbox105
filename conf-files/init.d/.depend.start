@@ -1,0 +1,29 @@
+TARGETS = rsyslog samba killprocs openvpn nginx dnsmasq dahdi mysql dbus quagga openbsd-inetd webmin stunnel4 vpnclient bootlogs ntp ssh apache2 single asterisk bluetooth exim4 isc-dhcp-server hal rsync cron portmap fam lighttpd sudo rc.local rmnologin stop-bootlogd
+INTERACTIVE = openvpn apache2
+openvpn: rsyslog
+nginx: rsyslog
+dnsmasq: rsyslog
+dahdi: rsyslog
+mysql: rsyslog
+dbus: rsyslog
+quagga: rsyslog
+openbsd-inetd: rsyslog
+webmin: rsyslog
+stunnel4: rsyslog
+vpnclient: rsyslog
+ntp: rsyslog
+ssh: rsyslog
+apache2: rsyslog dnsmasq
+single: killprocs bootlogs
+asterisk: rsyslog dnsmasq dahdi mysql
+bluetooth: rsyslog dbus
+exim4: rsyslog dnsmasq mysql
+isc-dhcp-server: rsyslog dnsmasq
+hal: dbus rsyslog
+rsync: rsyslog dnsmasq
+cron: rsyslog dnsmasq
+fam: portmap
+lighttpd: rsyslog fam
+rc.local: rsyslog nginx portmap apache2 dnsmasq fam asterisk dahdi mysql bluetooth dbus exim4 lighttpd quagga openbsd-inetd isc-dhcp-server samba webmin stunnel4 vpnclient openvpn bootlogs hal ntp rsync ssh sudo cron
+rmnologin: sudo nginx rsyslog portmap apache2 dnsmasq fam asterisk dahdi mysql bluetooth dbus exim4 lighttpd quagga openbsd-inetd isc-dhcp-server samba webmin stunnel4 vpnclient openvpn bootlogs hal ntp rsync ssh cron
+stop-bootlogd: nginx rsyslog portmap apache2 dnsmasq fam asterisk dahdi mysql bluetooth dbus exim4 lighttpd quagga openbsd-inetd isc-dhcp-server samba webmin stunnel4 vpnclient openvpn bootlogs hal ntp rsync ssh sudo cron
